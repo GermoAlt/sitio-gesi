@@ -1,0 +1,97 @@
+#home .wrapper, #home .carousel{
+    position: relative;
+    max-height: 75vh;
+}
+
+/*#home .carousel .slide>div{*/
+/*    max-height: 75vh;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
+#home .carousel img{
+    height: 100%;
+}
+
+
+#home .banner-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home .image-container{
+    max-height: 200px;
+    padding-left: 3px;
+}
+
+#home .carousel .control-dots, #home .carousel .control-arrow{
+    z-index: 11;
+}
+
+#home .banner-container h1 {
+    font-size: 128px;
+    font-weight: normal;
+    margin: 0;
+    text-shadow: 3px 3px 5px black;
+}
+
+#home .banner-container h2 {
+    font-size: 35px;
+    font-weight: lighter;
+    margin: 0;
+    text-shadow: 3px 3px 5px black;
+}
+
+#home{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+}
+
+#home .panel{
+    min-width: 60vw;
+    max-width: 60vw;
+    display: flex;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0.9);
+    border: 4px solid var(--main-highlight-color);
+    box-shadow: 0 4px 24px 8px #009ACC;
+    flex-direction: column;
+    padding:5vw;
+    gap:25px;
+}
+
+#home .panel h3{
+    color: var(--main-highlight-color);
+    font-size: 3rem;
+    font-weight: 700;
+    margin:0;
+}
+
+#home .panel p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#home .panel button{
+    color: white;
+    background-color: var(--main-highlight-color);
+    border: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}

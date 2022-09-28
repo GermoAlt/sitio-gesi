@@ -1,0 +1,9 @@
+footer{
+    height: 200px;
+    background-color: var(--secondary-highlight-color);
+}
+
+footer .redes {
+    background-color: var(--main-highlight-color);
+    height: 20px;
+}

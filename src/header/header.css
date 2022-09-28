@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    flex: 1;
+    height: 75px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    border-bottom: solid 1px var(--main-highlight-color);
+    z-index: 1000;
+}
+
+header > div{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap:10px;
+    margin:10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    padding-right: 25px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+nav li:hover{
+    background-color: #009ACC;
+    color: white;
+    border-radius: 15px;
+}
+
+nav a{
+    color: inherit;
+}
