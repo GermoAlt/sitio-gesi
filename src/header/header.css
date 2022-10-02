@@ -2,6 +2,7 @@ header {
     display: flex;
     flex: 1;
     height: 75px;
+    flex-grow: 0;
     background-color: white;
     justify-content: space-between;
     align-items: stretch;
@@ -41,15 +42,17 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:10px;
+
 }
 
-nav li:hover{
+nav span:hover{
     background-color: #009ACC;
     color: white;
     border-radius: 15px;
 }
 
-nav a{
+nav span{
+    padding:10px;
     color: inherit;
+    height: inherit;
 }

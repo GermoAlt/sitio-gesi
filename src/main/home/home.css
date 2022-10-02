@@ -2,6 +2,7 @@
     position: relative;
     height: 90vh;
     max-width: 100%;
+    background: #333333;
 }
 
 #home .carousel .slide>div{
@@ -31,7 +32,7 @@
 
 #home .carousel .bg {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     top: 0;
     left: 0;
     min-width: 100%;

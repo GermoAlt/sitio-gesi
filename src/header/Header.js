@@ -17,13 +17,13 @@ export default function Header () {
             <nav>
                 <ul>
                     <li>
-                        <Link to={"/about"}>Quienes Somos</Link>
+                        <Link to={"/about"}><span>Quienes Somos</span></Link>
                     </li>
                     <li>
-                        <Link to={"/archive"}>Archivo</Link>
+                        <Link to={"/archive"}><span>Archivo</span></Link>
                     </li>
                     <li>
-                        <Link to={"/contact"}>Contacto</Link>
+                        <Link to={"/contact"}><span>Contacto</span></Link>
                     </li>
                 </ul>
             </nav>

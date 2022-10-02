@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
 
 export default function Home(){
     return (
-        <main id={"home"}>
+        <div id={"home"}>
             <div className={"wrapper"}>
                 <div className={"banner-container"}>
                     <div className={"image-container"}>
@@ -20,7 +20,7 @@ export default function Home(){
                         <h2>Grupo de Estudios de Sistemas Integrados</h2>
                 </div>
                 <Carousel  centerMode centerSlidePercentage={100} showThumbs={false} showStatus={false}
-                           interval={5000} autoPlay={false} infiniteLoop transitionTime={1000}>
+                           interval={5000} autoPlay infiniteLoop transitionTime={1000}>
                     <div>
                         <img src={a} alt={"a"} />
                         <img src={a} alt={"a"} className={"bg"}/>
@@ -58,6 +58,6 @@ export default function Home(){
                     </Link>
                 </div>
             </div>
-        </main>
+        </div>
     )
 }

@@ -10,6 +10,11 @@
 
 .App {
   text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 a {
@@ -33,8 +38,13 @@ a {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-main {
-  padding-bottom: 25px;
+body > div {
+  flex:1;
+  display: flex;
 }
