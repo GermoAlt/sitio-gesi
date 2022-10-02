@@ -19,16 +19,20 @@ export default function Home(){
                         <h1>GESI</h1>
                         <h2>Grupo de Estudios de Sistemas Integrados</h2>
                 </div>
-                <Carousel  centerMode={true} centerSlidePercentage={80} showThumbs={false} showStatus={false} interval={5000} autoPlay infiniteLoop transitionTime={1000}>
+                <Carousel  centerMode centerSlidePercentage={100} showThumbs={false} showStatus={false}
+                           interval={5000} autoPlay={false} infiniteLoop transitionTime={1000}>
                     <div>
                         <img src={a} alt={"a"} />
+                        <img src={a} alt={"a"} className={"bg"}/>
                     </div>
                     <div>
                         <img src={b} alt={"a"} />
+                        <img src={b} alt={"a"} className={"bg"}/>
 
                     </div>
                     <div>
                         <img src={c} alt={"a"} />
+                        <img src={c} alt={"a"} className={"bg"}/>
                     </div>
                 </Carousel>
             </div>
