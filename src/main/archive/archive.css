@@ -1,0 +1,32 @@
+#archive{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.nav-wrapper{
+    list-style-type: none;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-wrapper{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-left: 1px solid grey;
+    margin-left: 25%;
+}
+
+#archive section{
+    height: 500px;
+}

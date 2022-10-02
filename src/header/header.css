@@ -1,8 +1,6 @@
 header {
     display: flex;
-    flex: 1;
     height: 75px;
-    flex-grow: 0;
     background-color: white;
     justify-content: space-between;
     align-items: stretch;
