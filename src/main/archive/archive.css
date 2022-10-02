@@ -21,7 +21,7 @@
     flex: 1;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     font-size: 2rem;
     border-left: 1px solid grey;
     margin-left: 25%;
@@ -29,4 +29,5 @@
 
 #archive section{
     height: 500px;
+
 }

@@ -14,6 +14,15 @@ export default function Archive(){
         useRef(HTMLDivElement),
         useRef(HTMLDivElement)
     ];
+
+    const scrollHandler = (i, e) => {
+        e.preventDefault();
+        let id = "section-" + i
+        let position = document.getElementById(id);
+        position && position.scrollIntoView({ behavior: "smooth", block: "start" }) //scrolling the page
+        setTimeout(20, () => {window.location.replace("#" + id)}); // changing the url
+    }
+
     return (
         <Scrollspy sectionRefs={sectionRefs}>
             {({ currentElementIndexInViewport }) => (
@@ -21,7 +30,7 @@ export default function Archive(){
                     <ul className="nav-wrapper">
                         {list.map((_, i) => (
                             <li key={i} className={ currentElementIndexInViewport === i ? "active" : "" } >
-                                <a href={`#section-${i}`}
+                                <a href={`#section-${i}`} onClick={(e) => scrollHandler(i, e)}
                                    style={{ color: currentElementIndexInViewport === i ? "#f00" : "#222" }} >
                                     section-{i}
                                 </a>
