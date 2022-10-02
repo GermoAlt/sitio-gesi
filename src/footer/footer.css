@@ -1,9 +1,28 @@
 footer{
-    height: 200px;
+    height: 300px;
     background-color: var(--secondary-highlight-color);
 }
 
 footer .redes {
     background-color: var(--main-highlight-color);
-    height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:10px
+}
+
+footer .redes p{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+footer .redes .image-container{
+    height: 50px;
+}
+
+footer .redes img{
+    border-radius: 5px;
 }
