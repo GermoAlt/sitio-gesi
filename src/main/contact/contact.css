@@ -6,9 +6,40 @@
     padding: 25px;
     background-color: white;
     border-radius: 25px;
+    text-align: left;
+    gap:15px;
 }
 
 #contacto textarea{
     resize: none;
     flex:1;
+    min-height: 200px;
+}
+
+#contacto .personal-info-container{
+    display: flex;
+    gap: 15px;
+}
+
+#contacto .personal-info-container > div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 1;
+    gap:5px;
+}
+
+#contacto input, #contacto textarea {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#contacto .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#contacto button{
+    padding:15px;
 }

@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     align-items: stretch;
     flex-direction: row;
-    border-bottom: solid 1px var(--main-highlight-color);
+    border-bottom: solid 2px var(--main-highlight-color);
     z-index: 1000;
 }
 
