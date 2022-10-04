@@ -1,24 +1,11 @@
 import './archive.css'
-import {Scrollspy} from "@makotot/ghostui";
-import {useRef} from "react";
 import libro from "../../resources/images/ensayos-sobre-sistemica-y-cibernetica.jpg"
 import pdf from "../../resources/pdf/Reverse-CoverCDromCourseFrancois2007.pdf"
+import ListScroll from "../../components/ListScroll/ListScroll";
 
-const SIZE = 7;
-const list = new Array(SIZE).fill(0);
+
 
 export default function Archive(){
-
-    const sectionRefs = [
-        useRef(HTMLDivElement),
-        useRef(HTMLDivElement),
-        useRef(HTMLDivElement),
-        useRef(HTMLDivElement),
-        useRef(HTMLDivElement),
-        useRef(HTMLDivElement),
-        useRef(HTMLDivElement)
-    ];
-
     const titles = [
         "Abstracts TGS al Día",
         "Abstracts de cuadernos de GESI",
@@ -28,7 +15,6 @@ export default function Archive(){
         "Curso de Teoria General de Sistemas y Cibernetica",
         "Tutorial of General Systems Theory and Cybernetics with Graphic Representations"
     ]
-
     const contents = [
         [
             <h2>Nro.1: Una nueva ciencia de la Complejidad (Paul Davies)</h2>,
@@ -312,42 +298,7 @@ export default function Archive(){
         ],
     ]
 
-    const scrollHandler = (i, e) => {
-        e.preventDefault();
-        if(i===0){
-            window.scrollTo({ top: 0, behavior: 'smooth' })
-        } else {
-            let id = "section-" + i
-            let position = document.getElementById(id);
-            position && position.scrollIntoView({behavior: "smooth", block: "start"})
-        }
-    }
-
     return (
-        <Scrollspy sectionRefs={sectionRefs}>
-            {({ currentElementIndexInViewport }) => (
-                <div id={"archive"}>
-                    <ul className="nav-wrapper">
-                        {list.map((_, i) => (
-                            <li key={i} className={ currentElementIndexInViewport === i ? "active" : "" } >
-                                <a href={`#section-${i}`} onClick={(e) => scrollHandler(i, e)}
-                                   style={{ color: currentElementIndexInViewport === i ? "#009ACC" : "#222" }} >
-                                    {titles[i]}
-                                </a>
-                            </li>
-                        ))}
-                    </ul>
-
-                    <div className="section-wrapper">
-                        {list.map((_, i) => (
-                            <section id={`section-${i}`} key={i} ref={sectionRefs[i]} className={`section ${currentElementIndexInViewport === i ? "active" : ""}` } >
-                                <h1>{titles[i]}</h1>
-                                {contents[i]}
-                            </section>
-                        ))}
-                    </div>
-                </div>
-            )}
-        </Scrollspy>
+        <ListScroll titles={titles} content={contents} />
     )
 }
