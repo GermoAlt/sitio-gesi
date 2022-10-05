@@ -17,11 +17,6 @@
   align-items: stretch;
 }
 
-a {
-  text-decoration: none;
-  color: var(--main-text-color);
-}
-
 .image-container {
   height: 100%;
 }

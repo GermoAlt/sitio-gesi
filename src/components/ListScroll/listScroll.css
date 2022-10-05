@@ -24,6 +24,11 @@
     height: fit-content;
 }
 
+.nav-wrapper * {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
 .section-wrapper{
     display: flex;
     flex: 1;
@@ -39,7 +44,8 @@
     padding-left: 15px;
 }
 
-#listscroll section h1, #archive section h2, #archive section h3{
+#listscroll section h1, #archive section h2,
+#archive section h3, #archive section h4{
     margin: 0;
     padding: 0;
 }
@@ -69,12 +75,23 @@
     font-size: 1.1rem;
 }
 
+#listscroll section h4{
+    font-size: 1.1rem;
+}
+
 #listscroll section p{
     font-size: 1rem;
 }
 
 #listscroll section li{
     font-size: 1rem;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#listscroll section ul{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #listscroll section img {

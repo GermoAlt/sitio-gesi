@@ -26,6 +26,11 @@ nav{
     padding-right: 25px;
 }
 
+nav a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
