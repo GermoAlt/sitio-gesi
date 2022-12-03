@@ -17,7 +17,7 @@ export default function Home(){
                         <img src={logo} alt={"logo"}/>
                     </div>
                         <h1>GESI</h1>
-                        <h2>Grupo de Estudios de Sistemas Integrados</h2>
+                        <h2>Grupo de Estudio de Sistemas Integrados</h2>
                 </div>
                 <Carousel  centerMode centerSlidePercentage={100} showThumbs={false} showStatus={false}
                            interval={5000} autoPlay infiniteLoop transitionTime={1000}>

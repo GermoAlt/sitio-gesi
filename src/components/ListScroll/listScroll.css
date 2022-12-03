@@ -11,7 +11,7 @@
 .nav-wrapper{
     list-style-type: none;
     position: sticky;
-    top: 25px;
+    top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

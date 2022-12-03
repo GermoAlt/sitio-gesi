@@ -1,6 +1,8 @@
 import React from "react"
 import './footer.css'
 import facebook from "../resources/images/facebook.png"
+import logo from '../resources/images/logo.png'
+import {Link} from "react-router-dom";
 
 export default function Footer () {
     return (
@@ -13,7 +15,27 @@ export default function Footer () {
                     </a>
                 </div>
             </div>
-
+            <div id={"info"}>
+                <div className={"column"}>
+                    <Link to={"/"}>
+                        <img src={logo} alt={"logo GESI"}/>
+                    </Link>
+                    <p>Grupo de Estudio de Sistemas Integrados</p>
+                </div>
+                <div className={"column"}>
+                    <ul>
+                        <li>
+                            <Link to={"/about"}><span>Quienes Somos</span></Link>
+                        </li>
+                        <li>
+                            <Link to={"/archive"}><span>Archivo</span></Link>
+                        </li>
+                        <li>
+                            <Link to={"/contact"}><span>Contacto</span></Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </footer>
     )
 }

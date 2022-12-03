@@ -1,6 +1,11 @@
 footer{
-    height: 300px;
+    display: flex;
+    flex-direction: column;
     background-color: var(--secondary-highlight-color);
+}
+
+footer a{
+    text-decoration: none;
 }
 
 footer .redes {
@@ -25,4 +30,34 @@ footer .redes .image-container{
 
 footer .redes img{
     border-radius: 5px;
+}
+
+footer #info {
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    padding:25px;
+    gap:25px;
+    flex-wrap: wrap;
+}
+
+footer #info .column {
+    flex:1;
+    display: flex;
+    max-height: 100%;
+    background-color: #000000DD;
+    border-radius: 25px;
+    padding:25px;
+    border: 4px solid var(--secondary-highlight-color);
+    box-shadow: 0 4px 24px 8px #000000AA;
+    color:white;
+}
+
+footer #info img {
+    max-height: 100px;
+}
+
+footer li {
+    list-style: none;
+    text-align: right;
 }
