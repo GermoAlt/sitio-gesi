@@ -90,8 +90,8 @@
 }
 
 #home .panel{
-    min-width: 60vw;
-    max-width: 60vw;
+    margin: 0 50px;
+    max-width: 1200px;
     display: flex;
     border-radius: 25px;
     background-color: rgba(255,255,255,0.9);
