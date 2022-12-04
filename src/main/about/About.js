@@ -1,7 +1,14 @@
 import './about.css'
 import ListScroll from "../../components/ListScroll/ListScroll";
+import {useEffect} from "react";
 
 export default function About(){
+
+
+    useEffect(()=>{
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+    }, [])
+
     const titles = [
         ["Misión e Identidad"],
         ["Origen y Trayectoria"],

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
 import {DevSupport} from "@react-buddy/ide-toolbox";
 import {ComponentPreviews, useInitial} from "./dev";
+import {FacebookContext, FacebookProvider} from "react-facebook";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,9 @@ root.render(
             <DevSupport ComponentPreviews={ComponentPreviews}
                         useInitialHook={useInitial}
             >
-                <App/>
+                <FacebookProvider appId={"812994293107160"}>
+                    <App/>
+                </FacebookProvider>
             </DevSupport>
         </BrowserRouter>
     </React.StrictMode>

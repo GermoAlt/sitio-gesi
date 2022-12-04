@@ -44,10 +44,12 @@
     padding-left: 15px;
 }
 
+
 #listscroll section h1, #archive section h2,
 #archive section h3, #archive section h4{
     margin: 0;
     padding: 0;
+    scroll-margin-top: 5rem;
 }
 
 #listscroll section ol{

@@ -6,13 +6,16 @@ import Home from "./home/Home";
 import About from "./about/About";
 import Contact from "./contact/Contact";
 import Archive from "./archive/Archive";
+import {Posts} from "./posts/Posts";
 
 export default function Main () {
+
     return (
         <main style={{backgroundImage:`url(${background})`}}>
             <Routes>
                 <Route path={"/"} element={<Home/>}/>
                 <Route path={"/about"} element={<About/>}/>
+                <Route path={"/feed"} element={<Posts/>}/>
                 <Route path={"/contact"} element={<Contact/>}/>
                 <Route path={"/archive"} element={<Archive/>}/>
             </Routes>

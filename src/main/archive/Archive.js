@@ -2,10 +2,17 @@ import './archive.css'
 import libro from "../../resources/images/ensayos-sobre-sistemica-y-cibernetica.jpg"
 import pdf from "../../resources/pdf/Reverse-CoverCDromCourseFrancois2007.pdf"
 import ListScroll from "../../components/ListScroll/ListScroll";
+import {useEffect} from "react";
 
 
 
 export default function Archive(){
+
+
+    useEffect(()=>{
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+    }, [])
+
     const titles = [
         "Abstracts TGS al Día",
         "Abstracts de cuadernos de GESI",

@@ -20,6 +20,9 @@ export default function Header () {
                         <Link to={"/about"}><span>Quienes Somos</span></Link>
                     </li>
                     <li>
+                        <Link to={"/feed"}><span>Novedades</span></Link>
+                    </li>
+                    <li>
                         <Link to={"/archive"}><span>Archivo</span></Link>
                     </li>
                     <li>

@@ -2,3 +2,7 @@ main{
     flex: 1;
     padding-bottom: 50px;
 }
+
+#fb-root{
+    max-height: 0;
+}
