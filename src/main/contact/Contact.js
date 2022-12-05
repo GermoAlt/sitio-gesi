@@ -1,6 +1,16 @@
 import './contact.css'
+import {useState} from "react";
 
 export default function Contact() {
+    const [captcha, setCaptcha] = useState(false)
+    const [name, setName] = useState("")
+    const [email, setEmail] = useState("")
+    const [message, setMessage] = useState("")
+
+    const emailHandler = ()=> {
+        // if(!captcha || !name || !email || !message) return;
+        window.open("mailto:germanaltairac@hotmail.com;german98altairac@gmail.com?subject=Consulta GESI&body=hola")
+    }
     return (
         <div id={"contacto"}>
             <div className={"personal-info-container"}>
@@ -16,7 +26,7 @@ export default function Contact() {
             <label htmlFor={"contact-message"}>Mensaje</label>
             <textarea id={"contact-message"}></textarea>
             <div className={"button-container"}>
-                <button>ENVIAR</button>
+                <button onClick={()=>emailHandler()}>ENVIAR</button>
             </div>
         </div>
     )
