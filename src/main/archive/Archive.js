@@ -11,9 +11,9 @@ export default function Archive(){
 
     const navigate = useNavigate()
 
-    useEffect(()=>{
-        window.scrollTo({ top: 0, behavior: 'smooth' })
-    }, [])
+    // useEffect(()=>{
+    //     window.scrollTo({ top: 0, behavior: 'smooth' })
+    // }, [])
 
     const generateArticleCards = () => {
         const articles = require("../../json/articles.json")
@@ -23,6 +23,8 @@ export default function Archive(){
                     return (
                         <div className={"card"} onClick={()=>{navigate("/article/"+article.id)}}>
                             <h2>{article.title}</h2>
+                            <h3>{article.date} por {article.author}</h3>
+                            <p>{article.preview}</p>
                         </div>
                     )
                 })}

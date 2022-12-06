@@ -22,10 +22,7 @@ export const Article = () => {
     const {articleId} = useParams()
     return (
         <div className={"mainCard"}>
-            {
-
-        articleLoader(parseInt(articleId))
-            }
+            {articleLoader(parseInt(articleId))}
         </div>
     )
 }
