@@ -7,6 +7,7 @@ import About from "./about/About";
 import Contact from "./contact/Contact";
 import Archive from "./archive/Archive";
 import {Posts} from "./posts/Posts";
+import {Article} from "./articles/Article";
 
 export default function Main () {
 
@@ -18,6 +19,7 @@ export default function Main () {
                 <Route path={"/feed"} element={<Posts/>}/>
                 <Route path={"/contact"} element={<Contact/>}/>
                 <Route path={"/archive"} element={<Archive/>}/>
+                <Route path={"/article/:articleId"} element={<Article/>}/>
             </Routes>
         </main>
     )

@@ -3,26 +3,53 @@ import libro from "../../resources/images/ensayos-sobre-sistemica-y-cibernetica.
 import pdf from "../../resources/pdf/Reverse-CoverCDromCourseFrancois2007.pdf"
 import ListScroll from "../../components/ListScroll/ListScroll";
 import {useEffect} from "react";
+import {useNavigate} from "react-router-dom";
 
 
 
 export default function Archive(){
 
+    const navigate = useNavigate()
 
     useEffect(()=>{
         window.scrollTo({ top: 0, behavior: 'smooth' })
     }, [])
 
+    const generateArticleCards = () => {
+        const articles = require("../../json/articles.json")
+        return (
+            <div className={"list"}>
+                {articles.map((article)=>{
+                    return (
+                        <div className={"card"} onClick={()=>{navigate("/article/"+article.id)}}>
+                            <h2>{article.title}</h2>
+                        </div>
+                    )
+                })}
+            </div>
+        )
+
+    }
+
     const titles = [
-        "Abstracts TGS al Día",
-        "Abstracts de cuadernos de GESI",
-        "Abstracts de Seminarios GESI",
-        "Diccionario de Teoria General de Sistemas y Cibernetica",
-        "Ensayos sobre Sistemica y Cibernetica",
+        "Ediciones del GESI",
+        "Teoría General de Sistemas al día (TGS)",
+        "Conferencias del GESI",
+        "Cuadernos del GESI",
+        "Seminarios del GESI",
+        "Diccionario de Teoria General de Sistemas y Cibernética",
+        "Ensayos sobre Sistémica y Cibernética",
         "Curso de Teoria General de Sistemas y Cibernetica",
-        "Tutorial of General Systems Theory and Cybernetics with Graphic Representations"
+        "Tutorial of General Systems Theory and Cybernetics with Graphic Representations",
+        "Pensamiento Sistémico; textos breves transdisplinarios.",
+        "Artículos de colaboradores y allegados"
     ]
     const contents = [
+        [
+            <p>En sus inicios, la búsqueda editorial fundamental fue la de crear un acervo bibliográfico básico en idioma español que diera cuenta de los abordajes de los sistemas complejos y sus problemáticas, las teorías disponibles, los avances en la investigación y aplicaciones. Es así que se realizaron traducciones de trabajos y artículos. Por otra parte, la actividad del GESI ha sido un factor estimulante para que sus integrantes y allegados emprendieran, a título propio, la realización de libros en el marco de la perspectiva sistémica.</p>,
+            <p>La labor en el ámbito del GESI ha quedado reflejada en ediciones impresas y boletines electrónicos, y actualmente mediante artículos pedagógicos y temáticos en el Magazine digital. Es de destacar el Diccionario de Teoría General de Sistemas y Cibernética elaborado por Charles François y editado por el GESI en colaboración con el Instituto Andino de Sistemas (IAS) de Perú. Es una obra de referencia que inspira el proyecto de una “Enciclopedia WIKI de sistémica, cibernética y complejidad”. Formato papel disponible de adquisición, y formato digital en preparación y estudio por el Proyecto GlossaLAB, Universidad  de León,España</p>,
+            <p>Desde sus comienzos, el ámbito del GESI es propicio para que surjan nuevos grupos de estudio, investigación y trabajo, así con para emprender colaboraciones con los existentes.  Por ello su red vinculante es fuerte y la actividad de quienes han participado, y la de quienes hoy participan dejan nuestra traza de muchas maneras en los más diversos ámbitos del país, la región y el mundo.</p>
+        ],
         [
             <h2>Nro.1: Una nueva ciencia de la Complejidad (Paul Davies)</h2>,
             <p>Destaca la diferencia entre lo complicado (desordenado) y lo complejo (ordenado, comprensible) y explica cómo estudiar la complejidad mediante modelos matemáticos</p>,
@@ -87,6 +114,13 @@ export default function Archive(){
             <p>Metodologías  para el diagnóstico y el planteo de situaciones complejas en las Organizaciones</p>,
             <h2>Nro. 31: Metodologías de modelización: la dinámica de sistemas, desde el enfoque sistémico y cibernético. (Charles François)</h2>,
             <p>Contiene las siguientes secciones: La Dinámica de Sistemas de Forrester evaluada en el marco de la Teoría General de Sistemas; El problema de los modelos para la Acción, desde el punto de vista de la realidad, de la Teoría General de Sistemas y de la Dinámica de Sistemas; El uso de la Metodología Sistémica en la Dinámica de Sistemas; Anexo: Dinámica de Sistemas, Modelización y Complejidad; Dinámica de Sistemas: intercambios didácticos"</p>,
+        ],
+        [
+            <h2>Nr 1 - Una reconsideración de la teoría económica desde el punto de vista ecológico. (Ch.François) 17 pgs., 1994 </h2>,
+            <h2>Nr 2 - Sistema jurídico y sistema ecológico: un enfoque sistémico. (E. Grün) 8 pgs., 1994 </h2>,
+            <h2>Nr 3 - La sociedad metaestable. (Ch.François) 15 pgs., 1994 </h2>,
+            <h2>Nr 4 - El concepto de ideología. (J.M.Romero Maletti) 15 pgs., 1994 </h2>,
+            <h2>Nr 5 - La cuestión social. (R.Guibourg et al.) 35 pgs., 1997</h2>,
         ],
         [
             <h2>Nro. 1 – Teoría General de Sistemas: conceptos y desarrollos, 1979, 65 pgs.</h2>,
@@ -227,7 +261,6 @@ export default function Archive(){
         ],
         [
             <h3>Autor: CHARLES FRANÇOIS.  GESI, 1992, 220 pgs.</h3>,
-            <br/>,
             <h3>Acerca del Autor</h3>,
             <p>Charles François, sistemista belga, radicado en Argentina desde 1963, es autor de libros, contribuciones, ensayos y artículos; miembro de comités editoriales, instituciones y sociedades de Sistémica, Cibernética, Prospectiva y disciplinas afines. Su participación en cursos, seminarios, talleres, jornadas, y conferencias, en Argentina y en el exterior, ha sido y es permanente. Mediante el dictado de las temáticas sistémicas y con la colaboración de estudiosos provenientes de diversas profesiones, inspiró a la fundación del GESI, Grupo de Estudio de Sistemas Integrados, que es la División Argentina de la ISSS (International Society for the Systems Sciences), miembro académico de la IFSR de Austria y miembro fundador de ALAS.</p>,
             <h3>Acerca de la obra</h3>,
@@ -237,17 +270,18 @@ export default function Archive(){
             <p><b>HOMEOSTASIS:</b> “Condición del sistema que conserva su estructura y sus funciones por intermedio de una multiplicidad de equilibrios dinámicos” (Joel de Rosnay, El Macroscopio, pag. 106) Noción introducida por Walter Cannon, a partir de las ideas de Claude Bernard (Constancia del Medio Interno) La homeostasis se obtiene por la acción de un conjunto interconectado de regulaciones armonizadas.  Es una propiedad de los sistemas ultraestables (W. Ross Ashby, Design for a Brain, pag. 100) Ashby llamó “homeostato” al aparato que construyó y destinó a demostrar la ultraestabilidad, no sin destacar las notables analogías con la noción de homeostasis tal como la definió Cannon. Ver: Autonomía (Vendryes)- Estabilidad Dinámica- Multiestato-Regulación-Reserva-Ultraestabilidad .I: Homeostasis     F: Homèostasie  It.: omeostasi    P: Homeostase  A: Homeoostase"</p>
         ],
         [
-           <h2>Comp. Eduardo del Caño y Ernesto Grün</h2>,
+           <h2>Compiladores: Eduardo del Caño y Ernesto Grün. Ed. Dunken, Buenos Aires, 2003. 216 pgs.</h2>,
             <br/>,
             <img src={libro} alt={"Portada del libro Ensayo sobre Sistémica y Cibernética"}/>,
            <p>Esta obra es un homenaje a nuestro inspirador y Presidente Honorario, Prof. Charles François, en la que hemos compilado una cantidad de ensayos en castellano e inglés, aportados por sistemistas de primer nivel de la Argentina y de otros países.  La edición ha sido realizada con el apoyo del GESI y de la International Federation for Systems Research.</p>,
-           <p>Editó Dunken, Buenos Aires, 2003. 216 pgs.</p>,
            <p>Los textos muestran que la Sistémica y la Cibernética constituyen herramientas de investigación indispensables para la comprensión y la actuación en el mundo complejo en el que vivimos. Quienes no están familiarizados con la temática, encontrarán un útil glosario; y para aquellos que sí la  conocen, el volumen ofrece ideas y enfoques de sumo interés y gran utilidad para el estudio de sus conceptos y su aplicación práctica en las más variadas disciplinas.</p>,
            <h2>Contenido:</h2>,
            <p>Prefacio; Notas Biográficas; Semblanza; Comentarios de Sistemistas; A Living Encyclopedia; Salud, enfermedad: análisis desde el enfoque sistémico; Architecture embodiment of knowledge; Glosario de Conceptos Básicos de Teoría General de Sistemas, aplicaciones a la Ciencia; La economía desde un punto de vista sistémico y cibernético; Viabilidad en los sistemas sociales; La cuestión de las dos dimensiones; Apuntes para una visión sistémica de la seguridad pública; Consideraciones acerca del tribunal penal internacional desde un punto de vista sistémico y cibernético; System interconnectedness and living systems theory; Citizen of the world: François´s contributions to international affairs.</p>
         ],
         [
-            <p><b>Con Representaciones Gráficas. Por Charles François.  Gesi, 2007 , Formato Cd Rom</b></p>,
+            <p>Con Representaciones Gráficas.</p>,
+            <h2>Autor: Charles François;Ed. Sergio Moriello</h2>,
+            <h2>GESI, 2007 , Formato CD Rom</h2>,
             <h2>Indice Abreviado</h2>,
             <p>Ofrece la lista de los 32 temas abordados en el Curso, entre los cuales se distribuyen más de 280 transparencias comentadas.</p>,
             <p>El contenido de cada tema figura en el índice desarrollado  y comentado.</p>,
@@ -297,13 +331,24 @@ export default function Archive(){
             </ul>
         ],
         [
+            <h2>GESI, 2007</h2>,
             <p>Reciente edición en inglés del Curso de TGS y Cibernética con representaciones gráficas publicado en 2007 en formato CD ROM.</p>,
             <p>Un tiempo después de su aparición y en vista de la recepción favorable , surgió la idea de traducirlo como material didáctico para difusión en el exterior de,  al menos,  de una ínfima parte de nuestras actividades didácticas como Grupo de Estudio; finalmente pudo realizarse hace unos días.</p>,
             <p>La noticia sobre este material didáctico editado oportunamente por el GESI en español, ha sido recibida con  entusiasmo por parte del Prof. Gary Metcalf, presidente  de la IFSR quien ya estaba al tanto de este proyecto,  y le ha sido despachado via correo postal a Atlanta, USA. en consonancia con el comienzo de sus clases en la Universidad Saybrook.</p>,
             <p>Por nuestra parte hemos convenido que en el exterior sea difundido tanto como posible entre los docentes sistémicos quienes tendrán en este Course… una herramienta sistémica para ilustrar sus clases, conferencias, etc., al tiempo que GESI estará también presente en las actividades didácticas que lo implementen, como institución sistémica de respaldo.</p>,
             <a href={pdf}>Reverse CoverCDromCourseFrancois2007</a>
         ],
+        [
+            <h2>François, Charles: Pensamiento Sistémico; textos breves transdisplinarios.</h2>,
+            <h2>Buenos Aires, GESI, 2014</h2>,
+            <p>La presente edición del GESI ofrece textos breves sobre diversas temáticas de interés sistémico, varias de las cuales, fundamentalmente la educativa, tuvieron un espacio destacado en la labor del autor, Prof. Charles François, correspondiéndose con los constantes desarrollos en su labor de investigador, docente, y profesor visitante y honorario, en numerosos ámbitos empresariales y educativos, nacionales y del exterior. Con dos principales propósitos: la difusión y práctica de las metodologías sistémicas y cibernéticas, y la conformación de agrupaciones de sistémicos, para conformar una red latinoamericana y dar a conocer sus investigaciones y resultados a favor de la innovación y mayor eficacia en el desenvolvimiento de los miembros y las instituciones involucradas.</p>,
+            <p>Contenido: Educación no es solamente instrucción; Proyectar con visión sistémica;  Concepto y  el  Modelo de Red Neuronal;El concepto de Estructura, y sus fundamentos matemáticos; La Metodología Sistémica en los modelos globales ecológicos y ambientales</p>
+        ],
+        generateArticleCards()
     ]
+
+
+
 
     return (
         <ListScroll titles={titles} content={contents} />

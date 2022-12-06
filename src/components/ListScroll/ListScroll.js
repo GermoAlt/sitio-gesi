@@ -27,7 +27,6 @@ export default function ListScroll(props){
     return (
         <Scrollspy sectionRefs={sectionRefs} offset={-100}>
             {({ currentElementIndexInViewport }) =>{
-                console.log(currentElementIndexInViewport);
                 return (
                 <div id={"listscroll"}>
                     <ul className="nav-wrapper">
