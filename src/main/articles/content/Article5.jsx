@@ -1,7 +1,6 @@
 export const Article5 = () => {
     return (
         <div>
-            <h1>Transdisciplinariedad, Cibernética y Sistémica</h1>
             <h2>1. Abordaje de la noción de Transdisciplinariedad</h2>
             <p>Un creciente número de situaciones complejas, de las más variadas características,   emergen en el ámbito cada vez más extenso e interconectado que el hombre ocupa  en el planeta.</p>
             <p>Estas situaciones ya no pueden manejarse mediante el estudio de las características ocasionales, no coordinadas, limitadamente específicas,  de las que se ocupan múltiples disciplinas especializadas, sin duda muy útiles,  pero cada vez más aisladas unas de otras.</p>

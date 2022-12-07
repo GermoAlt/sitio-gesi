@@ -1,7 +1,6 @@
 export const Article1 = () => {
     return (
         <div>
-            <h1>El individuo, la sociedad y la persona en una etapa de cambio </h1>
             <p className={"align-right"}><i>Where is the Knowledge we have lost with information?<br/>Where is the
                 wisdom we have lost with knowledge?</i></p>
             <p className={"align-right"}><b>T.S. Eliot</b></p>

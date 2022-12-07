@@ -1,7 +1,6 @@
 export const Article4 = () => {
     return (
         <div>
-            <h1>La Naturaleza Sistémica de la Globalización</h1>
             <p>La globalización es un fenómeno asociativo que implica un número considerable de interconexiones nuevas entre múltiples elementos en un nivel superior de complejidad. Provoca la aparición de formas sociales originales que introducen características de conjunto anteriormente inexistentes.</p>
             <p>Por ahora, nos referimos a la “globalización” como un fenómeno que afecta a la humanidad en el nivel planetario. Pero, en cuanto a manifestación asociativa en sí misma, no es más que una nueva instancia de una transformación evolutiva que se ha producido numerosas veces en la historia humana (aunque a escala mucho más limitada). Corresponde también a un proceso que ha afectado y sigue afectando numerosos grupos de seres vivos desde las amebas hasta los insectos sociales.</p>
             <p>Parece, por lo tanto, posible establecer un modelo general sistémico del fenómeno asociativo. Tal modelo nos podría ser muy útil para comprender mejor lo que está ocurriendo y las virtualidades aún difíciles de vislumbrar que implica o podría implicar. Además podría darnos herramientas conceptuales y psico-sociales para prepararnos a cambios considerables que, sin duda, se avecinan.</p>

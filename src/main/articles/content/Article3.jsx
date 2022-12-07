@@ -1,7 +1,6 @@
 export const Article3 = () => {
         return (
         <div>
-                <h1>Salud, Enfermedad, atención: Análisis desde el Enfoque Sistémico.</h1>
             <p>La visión sistémica, aplicada a la salud, muestra su presencia y penetración en el último tercio del siglo pasado. El esfuerzo tesonero y constante del Profesor Charles François en nuestro medio, contribuyó, sin dudas, a su inserción y arraigo.</p>
             <p>A la regulación biológica se suma la asistencia social, de alcances impensados, que impregna la lectura y fundamenta la elección y el instrumento. Se visualizan, así, y comprenden redes y centros, en densa interacción dentro del proceso de vida que asume, entonces, el liderazgo. Salud, como adaptación permanente y creativa a circunstancias oportunas, galvaniza el “in fieri” que nos identifica, incluidas miserias y posibilidades.</p>
             <p>La salud transcurre, sin duda, más acá y más allá de lo sanitario.</p>

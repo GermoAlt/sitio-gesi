@@ -14,9 +14,12 @@ import {Article11} from "./content/Article11";
 
 export const Article = () => {
     const {articleId} = useParams()
-
+    const articles = require("../../json/articles.json")
+    let article = articles.filter((art) => art.id === articleId)[0]
     return (
         <div className={"mainCard"}>
+            <h1>{article.title}</h1>
+            <h2>{article.author}, {article.date}</h2>
             {articleLoader(parseInt(articleId))}
         </div>
     )

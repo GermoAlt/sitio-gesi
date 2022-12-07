@@ -1,7 +1,6 @@
 export const Article2 = () => {
     return (
         <div>
-            <h1>Ética, Desarrollo y Calidad de Vida</h1>
             <p className={"align-center"}>Fuente: Kliksberg , Bernardo. <b>Más ética, más desarrollo.</b> 6 Ed.</p>
             <p className={"align-center"}>Bs. A., Temas, 2006. 224 p.</p>
             <h2>LA SITUACIÓN ACTUAL</h2>
