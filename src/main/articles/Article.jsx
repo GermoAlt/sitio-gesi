@@ -11,15 +11,10 @@ import {Article7} from "./content/Article7";
 import {Article8} from "./content/Article8";
 import {Article9} from "./content/Article9";
 import {Article11} from "./content/Article11";
-import {useEffect} from "react";
 
 export const Article = () => {
-
-    useEffect(()=>{
-        window.scrollTo({ top: 0, behavior: 'smooth' })
-    }, [])
-
     const {articleId} = useParams()
+
     return (
         <div className={"mainCard"}>
             {articleLoader(parseInt(articleId))}
@@ -28,6 +23,7 @@ export const Article = () => {
 }
 
 const articleLoader = (id) => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
     switch (id) {
         case 1:
             return <Article1/>

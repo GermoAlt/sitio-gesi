@@ -12,12 +12,24 @@ header {
     z-index: 1000;
 }
 
-header > div{
+header .left-side{
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     font-weight: bold;
+    flex: 1 1 auto;
     gap:10px;
     margin:10px;
+}
+
+header .left-side p {
+    flex: 1 1 auto;;
+    text-align: start;
+}
+
+header .image-container{
+    flex: 1 1 auto;;
+    max-width: 60px;
 }
 
 nav{
@@ -25,7 +37,7 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    flex: 1;
+    flex: 1 1 auto;;
     padding-right: 25px;
 }
 
