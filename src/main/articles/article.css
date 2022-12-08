@@ -18,6 +18,15 @@
     font-size: 1.2rem;
 }
 
+.mainCard h2::before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 .mainCard h3{
     font-size: 1.1rem;
     font-weight: bold;
