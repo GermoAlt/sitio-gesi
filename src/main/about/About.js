@@ -2,6 +2,7 @@ import './about.css'
 import ListScroll from "../../components/ListScroll/ListScroll";
 import {useEffect} from "react";
 import {Accordion, AccordionTab} from "primereact/accordion";
+import doraGregorio from "../../resources/images/dora_l_gregorio.jpg"
 
 export default function About(){
 
@@ -16,6 +17,7 @@ export default function About(){
         ["Mentor"],
         ["Contexto Generativo Transformador"],
         ["Nuestra Red"],
+        ["Homenajes"],
     ]
 
     const content = [
@@ -186,7 +188,7 @@ export default function About(){
                 <AccordionTab header={"Augusto Barcaglioni"}>
                     <p>Docente universitario. Investigador en filosofía cognitiva y pedagogía constructivista. Doctor en Ciencias de la Educación (UCA). Consultor organizacional para el entrenamiento de personas y equipos de alta performance. Desarrollo de habilidades cognitivo-emocionales para el desarrollo del liderazgo. Creatividad para la resolución de problemas, el abordaje de la complejidad y la mejora del clima laboral y de los procesos de toma de decisión estratégica. Creador del Método “Cognitio” de Aprendizaje Acelerativo (MCA) para niveles gerenciales y de alta dirección. Premio de la Academia Nacional de Educación (1998).</p>
                     <p>Contacto: barcaglioni@fibertel.com.ar;</p>
-                    <p> Más Info: www.barcaglioni.com, http://barcaglioni.blogspot.com.ar/</p>
+                    <p> Más Info: www.barcaglioni.com, https://barcaglioni.blogspot.com.ar/</p>
                 </AccordionTab>
                 <AccordionTab header={"Fabiana Crespo"}>
                     <p>Periodista. Comunicadora de ideas y enfoques en ámbitos educativos, sociales, políticos, culturales e institucionales con un especial interés en los valores éticos. Vincula su motivación social con el trabajo individual, propiciatorio de bienestar, en el convencimiento que ambos procesos son complementarios. Con esa perspectiva pone el énfasis en elevar los estados de conciencia, el autoconocimiento, la autovaloración y el respeto. En síntesis, el desarrollo de subjetividades con posibilidades de autorrealización, lo que contribuye al logro de inserciones comunitarias que multipliquen oportunidades para todos.</p>
@@ -264,62 +266,69 @@ export default function About(){
                 </AccordionTab>
             </Accordion>,
             <h2>INSTITUCIONES RELACIONADAS</h2>,
-            <a href={"https://academiadelmar.com.ar"}>ACADEMIA del Mar</a>,
-            <a href={"https://www.airs.it"}>AIRS Associazione Italiana per la Ricerca sui Sistemi</a>,
-            <a href={"https://www.afscet.asso.fr"}>AFSCET Association Française de Science des Systèmes</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://academiadelmar.com.ar"}>ACADEMIA del Mar</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.airs.it"}>AIRS Associazione Italiana per la Ricerca sui Sistemi</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.afscet.asso.fr"}>AFSCET Association Française de Science des Systèmes</a>,
             <span className={"no_link"}>ALAS Asociación Latinoamericana de Sistémica</span>,
-            <a href={"https://www.asc-cybernetics.org"}>ASC Sociedad Americana de Cibernética</a>,
-            <a href={"https://www.bcsss.org/de/"}>BERTALANFFY Center for Systems and Cybernetics</a>,
-            <a href={"https://cegesco.blogspot.com.ar"}>CEGESCO</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.asc-cybernetics.org"}>ASC Sociedad Americana de Cibernética</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.bcsss.org/de/"}>BERTALANFFY Center for Systems and Cybernetics</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://glossarium.bitrum.unileon.es/glossary"}>BITrum - Universidad de León</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://cegesco.blogspot.com.ar"}>CEGESCO</a>,
             <a href={"mailto:rbya_rb@rbya.com.ar"}>CESDES Centro Patagónico de Estrategias Sistémicas para el Desarrollo</a>,
-            <a href={"https://www.mmm.ulg.ac.be/"}>CAOS Centro de Hiperincursión y la anticipación en los sistemas ordenados</a>,
-            <a href={"https://www.complejidadhabana.com"}>Cátedra de Estudio de la Complejidad del Instituto de Filosofía de La Habana</a>,
-            <a href={"https://www.transcomplejidad.org"}>Cátedra de Complejidad y transdisciplinariedad Educativa</a>,
-            <a href={"https://www.salvador.edu.ar/vrid/ead/cet.htm"}>Cátedra Itinerante de Complejidad Edgar Morin</a>,
-            <a href={"https://www.acasa.upenn.edu"}>Centro Ackoff</a>,
-            <a href={"https://ciret-transdisciplinarity.org"}>CIRET Centro Internacional de Investigaciones y Estudios Transdisciplinarios</a>,
-            <a href={"https://www.iigss.net"}>IGSS Instituto Internacional de Estudios General de Sistemas</a>,
-            <a href={"https://www.pensamientocomplejo.com.ar"}>Comunidad de Pensamiento Complejo</a>,
-            <a href={"https://http://aedojas.com.ar/"}>Alberto E. Dojas</a>,
-            <a href={"http://claude.rochet.pagesperso-orange.fr/"}>La Complejidad implícita C. Rochet</a>,
-            <a href={"https://comdig.unam.mx"}>Complexity Digest</a>,
-            <a href={"https://www.elapdis.org"}>ELAPDIS Escuela Latinoamericana de Pensamiento y Diseño Sistémico</a>,
-            <a href={"https://www.silviazweifel.com.ar"}>Economía Amable.Épica del aprendizaje personal-colectivo</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.mmm.ulg.ac.be/"}>CAOS Centro de Hiperincursión y la anticipación en los sistemas ordenados</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.complejidadhabana.com"}>Cátedra de Estudio de la Complejidad del Instituto de Filosofía de La Habana</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.transcomplejidad.org"}>Cátedra de Complejidad y transdisciplinariedad Educativa</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.salvador.edu.ar/vrid/ead/cet.htm"}>Cátedra Itinerante de Complejidad Edgar Morin</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.acasa.upenn.edu"}>Centro Ackoff</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://ciret-transdisciplinarity.org"}>CIRET Centro Internacional de Investigaciones y Estudios Transdisciplinarios</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.iigss.net"}>IGSS Instituto Internacional de Estudios General de Sistemas</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.pensamientocomplejo.com.ar"}>Comunidad de Pensamiento Complejo</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://aedojas.com.ar/"}>Alberto E. Dojas</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://claude.rochet.pagesperso-orange.fr/"}>La Complejidad implícita C. Rochet</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://comdig.unam.mx"}>Complexity Digest</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.elapdis.org"}>ELAPDIS Escuela Latinoamericana de Pensamiento y Diseño Sistémico</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.silviazweifel.com.ar"}>Economía Amable.Épica del aprendizaje personal-colectivo</a>,
             <a href={"mailto:bububeccar@yahoo.com.ar;sherrera@unse.edu.ar"}>FUNDARINGENIO Fundación para el Talento y el Ingenio</a>,
-            <a href={"https://www.desdeamerica.org.ar"}>Fundación Desde América</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.desdeamerica.org.ar"}>Fundación Desde América</a>,
             <a href={"mailto:jdian@unileon.es"}>GlossaLab</a>,
             <a href={"mailto:dantepm@usp.br"}>Grupo Brasileño de Sistemas, Prof. Dante Pinheiro Martinelli</a>,
-            <a href={"https://sistemica.uniandes.edu.co"}>Grupo de Investigación TESO Universidad de los Andes, Bogotá</a>,
-            <a href={"https://www.hsss.gr/eng/index.html"}>HSSS Sociedad Helénica para sistémicas Estudios</a>,
-            <a href={"https://www.iasvirtual.net"}>IAS Instituto Andino de Sistemas</a>,
-            <a href={"https://https://www.isss.org/world"}>ISSS Sociedad Internacional para las Ciencias de Sistemas</a>,
-            <a href={"https://ifsr.org"}>IFSR Federación Internacional para la Investigación de Sistemas</a>,
-            <a href={"https://www.itba.edu.ar"}>ITBA Instituto Tecnológico de Buenos Aires</a>,
-            <a href={"https://www.complexsystems.org"}>Instituto para el Estudio de Sistemas Complejos</a>,
-            <a href={"https://www.sepi.esimez.ipn.mx/sistemas/"}>Instituto Politécnico Nacional, Méjico, Unidad Zapatenco</a>,
-            <a href={"https://www.unizar.es/sociocybernetics"}>ISA Asociación Internacional de Sociología</a>,
-            <a href={"https://www.systemsinstitute.com"}>ISI International Systems Institute</a>,
-            <a href={"https://jmonzo.blogspot.com"}>Instituto Internacional de Informática y Sistémica John Warfield</a>,
-            <a href={"https://www.gmu.edu"}>La solución Wandwaver</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://sistemica.uniandes.edu.co"}>Grupo de Investigación TESO Universidad de los Andes, Bogotá</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.hsss.gr/eng/index.html"}>HSSS Sociedad Helénica para sistémicas Estudios</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.iasvirtual.net"}>IAS Instituto Andino de Sistemas</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.isss.org/world"}>ISSS Sociedad Internacional para las Ciencias de Sistemas</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://ifsr.org"}>IFSR Federación Internacional para la Investigación de Sistemas</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.itba.edu.ar"}>ITBA Instituto Tecnológico de Buenos Aires</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.complexsystems.org"}>Instituto para el Estudio de Sistemas Complejos</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.sepi.esimez.ipn.mx/sistemas/"}>Instituto Politécnico Nacional, Méjico, Unidad Zapatenco</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.unizar.es/sociocybernetics"}>ISA Asociación Internacional de Sociología</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.systemsinstitute.com"}>ISI International Systems Institute</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://jmonzo.blogspot.com"}>Instituto Internacional de Informática y Sistémica John Warfield</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.gmu.edu"}>La solución Wandwaver</a>,
             <a href={"mailto:coordinacion.ps.unr@gmail.com;cocofuks@gmail.com"}>Maestría en Pensamiento Complejo,Universidad Nacional de Rosario,Argentina</a>,
-            <a href={"https://www.multiversidadreal.org"}>Multiversidad Mundo Real Edgar Morin</a>,
-            <a href={"https://www.wcsaglobal.org"}>Mundial de la Academia de Ciencias de la Complejidad</a>,
-            <a href={"https://www.pegasuscom.com"}>Pegasus Communications Inc.</a>,
-            <a href={"https://www.ijsci.org"}>Pentagrama Centro de Investigación</a>,
-            <a href={"https://www.barcaglioni.blogspot.com.ar"}>Pensamiento Creativo</a>,
-            <a href={"https://pespmc1.vub.ac.be/"}>Principia Cibernética</a>,
-            <a href={"https://www.isss.org/primer/primer.htm"}>Proyecto Primer</a>,
-            <a href={"https://www.theorsociety.com"}>Sociedad de Investigación Operativa</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.multiversidadreal.org"}>Multiversidad Mundo Real Edgar Morin</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.wcsaglobal.org"}>Mundial de la Academia de Ciencias de la Complejidad</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.pegasuscom.com"}>Pegasus Communications Inc.</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.ijsci.org"}>Pentagrama Centro de Investigación</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.barcaglioni.blogspot.com.ar"}>Pensamiento Creativo</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://pespmc1.vub.ac.be/"}>Principia Cibernética</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.isss.org/primer/primer.htm"}>Proyecto Primer</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.theorsociety.com"}>Sociedad de Investigación Operativa</a>,
             <a href={"mailto:rrcora@sesge.org"}>Sociedad Española de Sistemas Generales</a>,
-            <a href={"https://www.uv.es/pla/SESGE/index.html"}>Skliar, Osvaldo: Arte digital</a>,
-            <a href={"https://www.systemdynamics.org"}>System Dynamics Society</a>,
-            <a href={"https://www.tendencias21.net"}>Tendencias Científicas</a>,
-            <a href={"https://www.ues-eus.eu/fr/accueil-francais/"}>Unión Europèene de Systemique</a>,
-            <a href={"https://www.unp.edu.ar"}>Universidad Nacional de la PATAGONIA San Juan Don Bosco</a>,
-            <a href={"https://www.untdf.edu.ar"}>Universidad Nacional de TIERRA DEL FUEGO Antártida e Islas del Atlántico Sur</a>,
-            <a href={"https://www.frba.utn.edu.ar"}>UTN Universidad Tecnológica Nacional – Buenos Aires</a>,
-            <a href={"https://www.frrg.utn.edu.ar"}>UTN Universidad Tecnológica Nacional – Regional Río Grande extensión Ushuaia</a>,
-            <a href={"https://www.cybsoc.org/wosc"}>WOSC Organización Mundial de Sistemas y Cibernética</a>
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.uv.es/pla/SESGE/index.html"}>Skliar, Osvaldo: Arte digital</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.systemdynamics.org"}>System Dynamics Society</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.tendencias21.net"}>Tendencias Científicas</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.ues-eus.eu/fr/accueil-francais/"}>Unión Europèene de Systemique</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.unp.edu.ar"}>Universidad Nacional de la PATAGONIA San Juan Don Bosco</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.untdf.edu.ar"}>Universidad Nacional de TIERRA DEL FUEGO Antártida e Islas del Atlántico Sur</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.frba.utn.edu.ar"}>UTN Universidad Tecnológica Nacional – Buenos Aires</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.frrg.utn.edu.ar"}>UTN Universidad Tecnológica Nacional – Regional Río Grande extensión Ushuaia</a>,
+            <a target={"_blank"} rel={"noreferrer noopener"} href={"https://www.cybsoc.org/wosc"}>WOSC Organización Mundial de Sistemas y Cibernética</a>
+        ],
+        [
+            <h2>Prof. Dora Lía Gregorio</h2>,
+            <img src={doraGregorio} alt={"foto de dora gregorio"}/>,
+            <p>La Prof. Dora Lía Gregorio (1935-2016) egresada en Filosofía de la Facultad de Humanidades y Ciencias de la Educación de la Universidad Nacional de La Plata en 1969, se dedicó al conocimiento de la Lógica, la Lingüística y la Sistémica. Con maestría en Educación Psico-informática de la Facultad de Ciencias Sociales de la Universidad Nacional de Lomas de Zamora, Investigadora tesista UBACYT entre el 95 y el 97 y 98-2000.; “Didáctica y Epistemología I y ll”  en el Ciclo Básico Común de la Universidad Nacional de Buenos Aires y el Liceo Naval, dictó asimismo la materia Introducción al Conocimiento Científico en el Instituto de Enseñanza Media ISFDYT Nº 9, en otros institutos de enseñanza media de la ciudad de Buenos Aires, y en el Ciclo Básico de la UBA: Didáctica y Epistemología I y II  y publicó diversos artículos, manuales y libros.</p>,
+            <p>De su exhaustiva indagación en la Semántica de la TGS y la Cibernética, la Sección Miscelánea del GESI ofrece un texto correspondiente a  su  “Glosario de Conceptos Básicos de Teoría General de los Sistemas para ser aplicados a las Ciencias” publicado en nuestra edición: Ensayos sobre Sistémica y Cibernética. Ed. Dunken, Buenos Aires, 2003.</p>,
         ]
     ]
 

@@ -56,7 +56,7 @@ export const Article9 = () => {
             <p>Los agradecimientos van a Rupert Riedl (1925-2005), que inició un proyecto de investigación que fue apoyado por el Fondo Austríaco Para La Ciencia (FWF) Grant P18149-G04, a David Pouvreau por sus eminentes contribuciones y discusiones profundas, y a Gerd B. Müller. Gracias también van a la prensa de la Universidad de Chicago por el permiso para reimprimir partes de un artículo.</p>
             <h2>REFERENCIAS</h2>
             <p>Barnes, J. (1987). Early Geek Philosophy. Penguin, London.</p>
-            <p>Bertalanffy papers. Archive of the Bertalanffy Center for the Study of Systems Science (BCSSS). Department of Theoretical Biology, University of Vienna, Austria. <a href={"http://www.bertalanffy.org"}>http://www.bertalanffy.org</a></p>
+            <p>Bertalanffy papers. Archive of the Bertalanffy Center for the Study of Systems Science (BCSSS). Department of Theoretical Biology, University of Vienna, Austria. <a href={"http://www.bertalanffy.org"}  target={"_blank"} rel={"noreferrer noopener"}>https://www.bertalanffy.org</a></p>
             <p>Bertalanffy, L.v. (1926). Fechner und das Problem der Integration höherer Ordnung. PhD thesis, University of Vienna.</p>
             <p>Bertalanffy, L.v. (1928). Kritische Theorie der Formbildung, in Abhandlungen zur theoretischen Biologie, (J. Schaxel, ed.), Gebrüder Borntraeger, Berlin.</p>
             <p>Bertalanffy, L.v. (1929a). Die Teleologie des Lebens. Eine kritische Erörterung, Biologia Generalis, 5:379-394.</p>
@@ -98,7 +98,7 @@ export const Article9 = () => {
             <p>Weiss, P. A. (1977). The system of nature and the nature of systems: Empirical holism and practical reductionism harmonized, in A New Image of Man in Medicine, Vol. I: Towards a Man-Centered Medical Science, (K. E. Schaefer, H. Hensel, and R.Brady, eds.), Futura, New York</p>
             <h2 id={"notas"}>NOTAS</h2>
             <h3><span style={{color:"var(--main-highlight-color)"}}>[1] </span>En System Research and Behavioral Science Vol 26 (2009)pags 563/72</h3>
-            <h3><span style={{color:"var(--main-highlight-color)"}}>[2] </span>Véase su curriculum vitae en <a href={"http://www.iph.uni-rostock.de/fileadmin/media/zlwwg-media/Curriculum-vitae_Drack.pdf"}>este link.</a></h3>
+            <h3><span style={{color:"var(--main-highlight-color)"}}>[2] </span>Véase su curriculum vitae en <a href={"https://www.iph.uni-rostock.de/fileadmin/media/zlwwg-media/Curriculum-vitae_Drack.pdf"}  target={"_blank"} rel={"noreferrer noopener"}>este link.</a></h3>
             <h3><span style={{color:"var(--main-highlight-color)"}}>[3] </span>Handbook of the Philosophy of Science. Volume 10: Philosophy of Complex Systems. Volume editor: Cliff Hooker. General editors: Dov M. Gabbay, Paul Thagard and John Woods.c 2009</h3>
             <h3><span style={{color:"var(--main-highlight-color)"}}>[4] </span>Nota del Traductor:La expresión “sistemología general” no debe ser confundida ni tiene que ver con la “sistemología intepretativa”, que se dicta en la Universidad de los Andes, Mérida, Venezuela y cuyos principales exponentes son Ramsés Fuenmayor y Hernán Lopez Garay.</h3>
             <h3><span style={{color:"var(--main-highlight-color)"}}>[5] </span>Nota del Traductor: Empleo la palabra “sistémica” y no “sistema” en muchos contextos del presente trabajo,de acuerdo con el uso que le damos a la expresión tanto en el Grupo de Estudios de Sistemas Integrados# (GESI) como en ALAS (Asociación Latinoamericana de Sistémica</h3>

@@ -11,6 +11,8 @@ import {Article7} from "./content/Article7";
 import {Article8} from "./content/Article8";
 import {Article9} from "./content/Article9";
 import {Article11} from "./content/Article11";
+import {Article12} from "./content/Article12";
+import {Article13} from "./content/Article13";
 
 export const Article = () => {
     const {articleId} = useParams()
@@ -50,6 +52,10 @@ const articleLoader = (id) => {
             return <Article10/>
         case 11:
             return <Article11/>
+        case 12:
+            return <Article12/>
+        case 13:
+            return <Article13/>
         default:
             return <div>No existe este artículo</div>
     }
