@@ -100,4 +100,8 @@ nav span{
         min-height: 40px;
         padding-bottom: 5px;
     }
+
+    nav ul {
+        gap:5px;
+    }
 }
