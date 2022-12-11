@@ -123,4 +123,11 @@
     #home .panel p{
         font-size: 1rem;
     }
+    #home .wrapper, #home .carousel {
+        height: 65vh;
+    }
+
+    #home .image-container{
+        max-height: 175px;
+    }
 }
