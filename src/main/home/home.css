@@ -113,3 +113,14 @@
     font-size: 1.5rem;
     margin: 0;
 }
+
+@media (max-width: 500px) {
+
+    #home .panel h3{
+        font-size: 2.5rem;
+    }
+
+    #home .panel p{
+        font-size: 1rem;
+    }
+}
