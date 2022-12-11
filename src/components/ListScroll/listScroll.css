@@ -105,3 +105,49 @@
     font-size: 1.2rem;
     margin-top: 5px;
 }
+
+@media (max-width: 500px) {
+    #listscroll{
+        margin: 5px;
+        padding: 10px 5px;
+    }
+
+    #listscroll section p {
+        font-size:12px;
+    }
+
+    #listscroll section{
+
+    }
+
+    #listscroll section h1{
+        font-size: 22px;
+    }
+
+    #listscroll section h2{
+        font-size: 16px;
+    }
+
+    #listscroll section h3{
+        font-size: 14px;
+    }
+
+    #listscroll section img{
+        width:100%;
+        height:auto;
+        max-width: none;
+    }
+
+    #listscroll section li {
+        font-size: 12px;
+    }
+
+    #listscroll section a {
+        line-break: anywhere;
+    }
+
+    .nav-wrapper{
+        font-size: 14px;
+        max-width: 35%;
+    }
+}
