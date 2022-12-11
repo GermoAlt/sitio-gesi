@@ -64,6 +64,19 @@ footer #info .column {
     align-items: center;
 }
 
+footer #info .column.left {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:15px;
+}
+
+footer #info .column.left a{
+    max-width: 100px;
+}
+footer #info .column.left p{
+    text-align: left;
+}
+
 footer #info img {
     max-height: 100px;
 }

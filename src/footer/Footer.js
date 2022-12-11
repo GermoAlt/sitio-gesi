@@ -16,7 +16,7 @@ export default function Footer () {
                 </div>
             </div>
             <div id={"info"}>
-                <div className={"column"}>
+                <div className={"column left"}>
                     <Link to={"/"}>
                         <img src={logo} alt={"logo GESI"}/>
                     </Link>

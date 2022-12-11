@@ -18,6 +18,8 @@
 
 #contacto .personal-info-container{
     display: flex;
+    flex:1;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
