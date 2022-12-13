@@ -338,7 +338,7 @@ export default function Archive(){
             <p>Un tiempo después de su aparición y en vista de la recepción favorable , surgió la idea de traducirlo como material didáctico para difusión en el exterior de,  al menos,  de una ínfima parte de nuestras actividades didácticas como Grupo de Estudio; finalmente pudo realizarse hace unos días.</p>,
             <p>La noticia sobre este material didáctico editado oportunamente por el GESI en español, ha sido recibida con  entusiasmo por parte del Prof. Gary Metcalf, presidente  de la IFSR quien ya estaba al tanto de este proyecto,  y le ha sido despachado via correo postal a Atlanta, USA. en consonancia con el comienzo de sus clases en la Universidad Saybrook.</p>,
             <p>Por nuestra parte hemos convenido que en el exterior sea difundido tanto como posible entre los docentes sistémicos quienes tendrán en este Course… una herramienta sistémica para ilustrar sus clases, conferencias, etc., al tiempo que GESI estará también presente en las actividades didácticas que lo implementen, como institución sistémica de respaldo.</p>,
-            <a href={pdf}>Reverse CoverCDromCourseFrancois2007</a>
+            <a href={pdf}>Reverse Cover CD-ROM Course Francois 2007</a>
         ],
         [
             <h2>François, Charles: Pensamiento Sistémico; textos breves transdisplinarios.</h2>,
