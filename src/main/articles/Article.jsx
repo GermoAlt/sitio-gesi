@@ -13,8 +13,14 @@ import {Article9} from "./content/Article9";
 import {Article11} from "./content/Article11";
 import {Article12} from "./content/Article12";
 import {Article13} from "./content/Article13";
+import {useEffect} from "react";
 
 export const Article = () => {
+
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    }, [])
+
     const {articleId} = useParams()
     const articles = require("../../json/articles.json")
     let article = articles.filter((art) => art.id === articleId)[0]
