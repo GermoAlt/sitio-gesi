@@ -1,5 +1,5 @@
 import './contact.css'
-import {useRef, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import emailjs from '@emailjs/browser';
 import {Toast} from "primereact/toast";
 
@@ -9,6 +9,10 @@ export default function Contact() {
     const [message, setMessage] = useState("")
     const form = useRef()
     const toast = useRef()
+
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    }, [])
 
     const emailHandler = (e)=> {
         e.preventDefault()
