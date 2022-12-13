@@ -1,6 +1,5 @@
 import React from "react"
 import './main.css'
-import background from "../resources/images/background.png"
 import {Route, Routes} from "react-router-dom";
 import Home from "./home/Home";
 import About from "./about/About";
@@ -12,7 +11,7 @@ import {Article} from "./articles/Article";
 export default function Main () {
 
     return (
-        <main style={{backgroundImage:`url(${background})`}}>
+        <main>
             <Routes>
                 <Route path={"/"} element={<Home/>}/>
                 <Route path={"/about"} element={<About/>}/>

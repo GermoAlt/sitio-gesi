@@ -34,6 +34,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #232422;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
