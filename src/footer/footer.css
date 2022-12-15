@@ -81,6 +81,8 @@ footer ul {
     display: flex;
     flex-direction: column;
     gap:15px;
+    margin:0;
+    padding: 0;
 }
 
 footer li {
@@ -90,4 +92,11 @@ footer li {
 footer p {
     flex:1;
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    footer li {
+        list-style: none;
+        text-align: left;
+    }
 }
