@@ -36,11 +36,11 @@ export default function Archive(){
     const titles = [
         "Ediciones del GESI",
         "Teoría General de Sistemas al día (TGS)",
-        "Second Edition of the International Encyclopedia of Systems and Cybernetics",
         "Conferencias del GESI",
         "Cuadernos del GESI",
         "Seminarios del GESI",
         "Diccionario de Teoria General de Sistemas y Cibernética",
+        "International Encyclopedia of Systems and Cybernetics",
         "Ensayos sobre Sistémica y Cibernética",
         "Curso de Teoria General de Sistemas y Cibernetica",
         "Tutorial of General Systems Theory and Cybernetics with Graphic Representations",
@@ -117,14 +117,6 @@ export default function Archive(){
             <p>Metodologías para el diagnóstico y el planteo de situaciones complejas en las Organizaciones</p>,
             <h2>Nro. 31: Metodologías de modelización: la dinámica de sistemas, desde el enfoque sistémico y cibernético. (Charles François)</h2>,
             <p>Contiene las siguientes secciones: La Dinámica de Sistemas de Forrester evaluada en el marco de la Teoría General de Sistemas; El problema de los modelos para la Acción, desde el punto de vista de la realidad, de la Teoría General de Sistemas y de la Dinámica de Sistemas; El uso de la Metodología Sistémica en la Dinámica de Sistemas; Anexo: Dinámica de Sistemas, Modelización y Complejidad; Dinámica de Sistemas: intercambios didácticos"</p>,
-        ],
-        [
-            <p>Su Diccionario en español, en una versión ampliada y profundizada dio lugar a la realización por parte del mismo autor, Charles François, de las Ediciones 1997 y 2004 ( 2 vol.) de su reconocida obra de referencia:<br/><b>International Encyclopedia of Systems and Cybernetics, München, Saur Verlag.</b></p>,
-            <p>The second edition of the Encyclopedia, appeared in August last; it has been presented at the Humbold University by his scientific editor and author Charles François. It was updated and augmented in more than 320 pages, 1700 articles, some of them with figures, tables and diagrams, and 1500 bibliographical references, compared with the first edition of 1997.</p>,
-            <p>A complete name index, operates as a direct referencing system, bringing together the work of each author cited, in order to facilitate the localization of their work, theories and concepts, all along the whole edtion.</p>,
-            <p>Lists of Institutions dealing with Systems and Cybernetics and related disciplines, were also updated. The Bibliography covering up to the year 2004, offers more than 4500 references, ordered chronologically for each author, and 3807 terms and concepts in 741 pages in two volumes. It permits to appreciate the conceptual evolution of their research and also gives the numbers of the entries where they have been quoted. A considerable number of references is given in french, german, italian, spanish and other languages, all of them easy to locate.</p>,
-            <p>The International Encyclopedia of Systems and Cybernetics covering a wide scope, is an indispensable reference tool for the study and application of very up to date methodologies, which are a valuable response to the increasing complexity of world issues.</p>,
-            <p>The Encyclopedia has been declared a work of special interest by the International Federation of Systems Research.</p>
         ],
         [
             <h2>Nr 1 - Una reconsideración de la teoría económica desde el punto de vista ecológico. (Ch.François) 17 pgs., 1994 </h2>,
@@ -279,6 +271,14 @@ export default function Archive(){
             <p>La literatura sistémica y cibernética es abundante en varios idiomas extranjeros, pero sin embargo es escasa en castellano, principalmente la de referencia. Disponer de una síntesis general que sea a la vez una obra de referencia y una herramienta de trabajo es el propósito que anima al GESI a editar el presente Diccionario de Teoría general de Sistemas y Cibernética. La edición en colaboración entre GESI e IAS, de Perú, incluye aproximadamente 480 términos. Cada uno de ellos es objeto de una o más definiciones obtenidas de autores reconocidos, con explicación, comparación, comentarios y críticas del punto de vista semántico y/o epistemológico; un sistema integrativo de interconexiones permite recorrer la totalidad de la obra con el propósito de descubrir las interrelaciones que unen a los conceptos y a los modelos. La traducción de los términos al inglés, francés, italiano, portugués y alemán permite al usuario orientarse en la lectura de literatura extranjera; ofrece asimismo, una extensa bibliografía relativa a la totalidad de los temas presentados. En su redacción se ha buscado ponerlo a disposición del más amplio espectro de usuarios. La obra ofrece una extensa bibliografía relativa a la totalidad de los temas presentados.</p>,
             <h3> Ej. de contenido:</h3>,
             <p><b>HOMEOSTASIS:</b> “Condición del sistema que conserva su estructura y sus funciones por intermedio de una multiplicidad de equilibrios dinámicos” (Joel de Rosnay, El Macroscopio, pag. 106) Noción introducida por Walter Cannon, a partir de las ideas de Claude Bernard (Constancia del Medio Interno) La homeostasis se obtiene por la acción de un conjunto interconectado de regulaciones armonizadas. Es una propiedad de los sistemas ultraestables (W. Ross Ashby, Design for a Brain, pag. 100) Ashby llamó “homeostato” al aparato que construyó y destinó a demostrar la ultraestabilidad, no sin destacar las notables analogías con la noción de homeostasis tal como la definió Cannon. Ver: Autonomía (Vendryes)- Estabilidad Dinámica- Multiestato-Regulación-Reserva-Ultraestabilidad. I: Homeostasis F: Homèostasie It.: omeostasi P: Homeostase A: Homeoostase"</p>
+        ],
+        [
+            <p>Su Diccionario en español, en una versión ampliada y profundizada dio lugar a la realización por parte del mismo autor, Charles François, de las Ediciones 1997 y 2004 ( 2 vol.) de su reconocida obra de referencia:<br/><b>International Encyclopedia of Systems and Cybernetics, München, Saur Verlag.</b></p>,
+            <p>The second edition of the Encyclopedia, appeared in August 2004; it has been presented at the Humbold University by his scientific editor and author Charles François. It was updated and augmented in more than 320 pages, 1700 articles, some of them with figures, tables and diagrams, and 1500 bibliographical references, compared with the first edition of 1997.</p>,
+            <p>A complete name index, operates as a direct referencing system, bringing together the work of each author cited, in order to facilitate the localization of their work, theories and concepts, all along the whole edtion.</p>,
+            <p>Lists of Institutions dealing with Systems and Cybernetics and related disciplines, were also updated. The Bibliography covering up to the year 2004, offers more than 4500 references, ordered chronologically for each author, and 3807 terms and concepts in 741 pages in two volumes. It permits to appreciate the conceptual evolution of their research and also gives the numbers of the entries where they have been quoted. A considerable number of references is given in french, german, italian, spanish and other languages, all of them easy to locate.</p>,
+            <p>The International Encyclopedia of Systems and Cybernetics covering a wide scope, is an indispensable reference tool for the study and application of very up to date methodologies, which are a valuable response to the increasing complexity of world issues.</p>,
+            <p>The Encyclopedia has been declared a work of special interest by the International Federation of Systems Research.</p>
         ],
         [
            <h2>Compiladores: Eduardo del Caño y Ernesto Grün. Ed. Dunken, Buenos Aires, 2003. 216 pgs.</h2>,

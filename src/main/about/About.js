@@ -6,6 +6,7 @@ import doraGregorio from "../../resources/images/dora_l_gregorio.jpg"
 import charles_banner from "../../resources/images/charles_banner.jpg"
 import charles_1 from "../../resources/images/charles_1.jpg"
 import charles_3 from "../../resources/images/charles_3.jpg"
+import homenajeCharles from "../../resources/pdf/Homenaje_Francois.pdf"
 
 export default function About(){
 
@@ -336,6 +337,8 @@ export default function About(){
             <p>La Prof. Dora Lía Gregorio (1935-2016) egresada en Filosofía de la Facultad de Humanidades y Ciencias de la Educación de la Universidad Nacional de La Plata en 1969, se dedicó al conocimiento de la Lógica, la Lingüística y la Sistémica. Con maestría en Educación Psico-informática de la Facultad de Ciencias Sociales de la Universidad Nacional de Lomas de Zamora, Investigadora tesista UBACYT entre el 95 y el 97 y 98-2000.; “Didáctica y Epistemología I y ll” en el Ciclo Básico Común de la Universidad Nacional de Buenos Aires y el Liceo Naval, dictó asimismo la materia Introducción al Conocimiento Científico en el Instituto de Enseñanza Media ISFDYT Nº 9, en otros institutos de enseñanza media de la ciudad de Buenos Aires, y en el Ciclo Básico de la UBA: Didáctica y Epistemología I y II y publicó diversos artículos, manuales y libros.</p>,
             <p>De su exhaustiva indagación en la Semántica de la TGS y la Cibernética, la Sección Miscelánea del GESI ofrece un texto correspondiente a su "Glosario de Conceptos Básicos de Teoría General de los Sistemas para ser aplicados a las Ciencias” publicado en nuestra edición: Ensayos sobre Sistémica y Cibernética. Ed. Dunken, Buenos Aires, 2003.</p>,
             <h2>Charles François</h2>,
+            <h3>Homenaje colectivo</h3>,
+            <a href={homenajeCharles}>Edición de homenaje colectivo a Charles François - PDF</a>,
             <h3>Tributo por Silvia Zweifel - Economía Amable & Futuros Deseables</h3>,
             <p>Charles François, ejerció un liderazgo inspirador, alentando la ampliación de las fronteras del conocimiento…</p>,
             <iframe src="https://www.youtube-nocookie.com/embed/_meELVRtzy8"
