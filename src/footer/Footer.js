@@ -36,6 +36,9 @@ export default function Footer () {
                     </ul>
                 </div>
             </div>
+            <div>
+                <p style={{color:"white"}}>© Germán Altairac {new Date().getFullYear()}</p>
+            </div>
         </footer>
     )
 }

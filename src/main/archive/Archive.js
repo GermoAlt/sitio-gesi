@@ -12,7 +12,7 @@ export default function Archive(){
     const navigate = useNavigate()
 
     useEffect(()=>{
-        window.scrollTo({ top: 0, behavior: 'smooth' })
+        window.scrollTo({ top: 0 })
     }, [])
 
     const generateArticleCards = () => {

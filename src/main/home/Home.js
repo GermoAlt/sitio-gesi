@@ -6,11 +6,16 @@ import b from "../../resources/images/gesi_ediciones.png";
 import c from "../../resources/images/direccion-y-ejecucion.jpg";
 import d from "../../resources/images/Nuestras-Huellas.png";
 import e from "../../resources/images/Contacto.jpg";
-import React from "react";
+import React, {useEffect} from "react";
 import {Link} from "react-router-dom";
 
 
 export default function Home(){
+
+    useEffect(()=>{
+        window.scrollTo({ top: 0 })
+    }, [])
+
     return (
         <div id={"home"}>
             <div className={"wrapper"}>
