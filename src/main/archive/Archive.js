@@ -119,8 +119,9 @@ export default function Archive(){
             <p>Contiene las siguientes secciones: La Dinámica de Sistemas de Forrester evaluada en el marco de la Teoría General de Sistemas; El problema de los modelos para la Acción, desde el punto de vista de la realidad, de la Teoría General de Sistemas y de la Dinámica de Sistemas; El uso de la Metodología Sistémica en la Dinámica de Sistemas; Anexo: Dinámica de Sistemas, Modelización y Complejidad; Dinámica de Sistemas: intercambios didácticos"</p>,
         ],
         [
-            <p>The second edition of the Encyclopedia , appeared in August last; it has been presented at the Humbold University by his scientific editor and author Charles François. It was updated and augmented in more than 320 pages, 1700 articles, some of them with figures, tables and diagrams, and 1500 bibliographical references, compared with the first edition of 1997.</p>,
-            <p>A complete name index , operates as a direct referencing system, bringing together the work of each author cited, in order to facilitate the localization of their work, theories and concepts, all along the whole edtion.</p>,
+            <p>Su Diccionario en español, en una versión ampliada y profundizada dio lugar a la realización por parte del mismo autor, Charles François, de las Ediciones 1997 y 2004 ( 2 vol.) de su reconocida obra de referencia:<br/><b>International Encyclopedia of Systems and Cybernetics,München, Saur Verlag.</b></p>,
+            <p>The second edition of the Encyclopedia, appeared in August last; it has been presented at the Humbold University by his scientific editor and author Charles François. It was updated and augmented in more than 320 pages, 1700 articles, some of them with figures, tables and diagrams, and 1500 bibliographical references, compared with the first edition of 1997.</p>,
+            <p>A complete name index, operates as a direct referencing system, bringing together the work of each author cited, in order to facilitate the localization of their work, theories and concepts, all along the whole edtion.</p>,
             <p>Lists of Institutions dealing with Systems and Cybernetics and related disciplines, were also updated. The Bibliography covering up to the year 2004, offers more than 4500 references, ordered chronologically for each author, and 3807 terms and concepts in 741 pages in two volumes. It permits to appreciate the conceptual evolution of their research and also gives the numbers of the entries where they have been quoted. A considerable number of references is given in french, german, italian, spanish and other languages, all of them easy to locate.</p>,
             <p>The International Encyclopedia of Systems and Cybernetics covering a wide scope, is an indispensable reference tool for the study and application of very up to date methodologies, which are a valuable response to the increasing complexity of world issues.</p>,
             <p>The Encyclopedia has been declared a work of special interest by the International Federation of Systems Research.</p>
@@ -215,7 +216,7 @@ export default function Archive(){
                 <li>la comunicación como caracteristica fundamental de la socialidad.</li>
                 <li>los lenguajes de la comunicación.</li>
                 <li>diferenciación celular</li>
-                <li>socialidad a nivel molecular-celular .</li>
+                <li>socialidad a nivel molecular-celular.</li>
                 <li>comunicación, sinergia e integracion.</li>
                 <li>la comunicación humana, signos y significados.</li>
                 <li>las organizaciones sociales como sistemas.</li>
@@ -277,7 +278,7 @@ export default function Archive(){
             <p>La metodología sistémica y la cibernética proveen conceptos y modelos que constituyen valiosas herramientas para el entendimiento de las situaciones complejas, de las condiciones de estabilidad, de las causas de desequilibrio de los sistemas de los cuales formamos parte: naturales, educativos, empresariales, etc.</p>,
             <p>La literatura sistémica y cibernética es abundante en varios idiomas extranjeros, pero sin embargo es escasa en castellano, principalmente la de referencia. Disponer de una síntesis general que sea a la vez una obra de referencia y una herramienta de trabajo es el propósito que anima al GESI a editar el presente Diccionario de Teoría general de Sistemas y Cibernética. La edición en colaboración entre GESI e IAS, de Perú, incluye aproximadamente 480 términos. Cada uno de ellos es objeto de una o más definiciones obtenidas de autores reconocidos, con explicación, comparación, comentarios y críticas del punto de vista semántico y/o epistemológico; un sistema integrativo de interconexiones permite recorrer la totalidad de la obra con el propósito de descubrir las interrelaciones que unen a los conceptos y a los modelos. La traducción de los términos al inglés, francés, italiano, portugués y alemán permite al usuario orientarse en la lectura de literatura extranjera; ofrece asimismo, una extensa bibliografía relativa a la totalidad de los temas presentados. En su redacción se ha buscado ponerlo a disposición del más amplio espectro de usuarios. La obra ofrece una extensa bibliografía relativa a la totalidad de los temas presentados.</p>,
             <h3> Ej. de contenido:</h3>,
-            <p><b>HOMEOSTASIS:</b> “Condición del sistema que conserva su estructura y sus funciones por intermedio de una multiplicidad de equilibrios dinámicos” (Joel de Rosnay, El Macroscopio, pag. 106) Noción introducida por Walter Cannon, a partir de las ideas de Claude Bernard (Constancia del Medio Interno) La homeostasis se obtiene por la acción de un conjunto interconectado de regulaciones armonizadas. Es una propiedad de los sistemas ultraestables (W. Ross Ashby, Design for a Brain, pag. 100) Ashby llamó “homeostato” al aparato que construyó y destinó a demostrar la ultraestabilidad, no sin destacar las notables analogías con la noción de homeostasis tal como la definió Cannon. Ver: Autonomía (Vendryes)- Estabilidad Dinámica- Multiestato-Regulación-Reserva-Ultraestabilidad .I: Homeostasis F: Homèostasie It.: omeostasi P: Homeostase A: Homeoostase"</p>
+            <p><b>HOMEOSTASIS:</b> “Condición del sistema que conserva su estructura y sus funciones por intermedio de una multiplicidad de equilibrios dinámicos” (Joel de Rosnay, El Macroscopio, pag. 106) Noción introducida por Walter Cannon, a partir de las ideas de Claude Bernard (Constancia del Medio Interno) La homeostasis se obtiene por la acción de un conjunto interconectado de regulaciones armonizadas. Es una propiedad de los sistemas ultraestables (W. Ross Ashby, Design for a Brain, pag. 100) Ashby llamó “homeostato” al aparato que construyó y destinó a demostrar la ultraestabilidad, no sin destacar las notables analogías con la noción de homeostasis tal como la definió Cannon. Ver: Autonomía (Vendryes)- Estabilidad Dinámica- Multiestato-Regulación-Reserva-Ultraestabilidad. I: Homeostasis F: Homèostasie It.: omeostasi P: Homeostase A: Homeoostase"</p>
         ],
         [
            <h2>Compiladores: Eduardo del Caño y Ernesto Grün. Ed. Dunken, Buenos Aires, 2003. 216 pgs.</h2>,
@@ -291,7 +292,7 @@ export default function Archive(){
         [
             <p>Con Representaciones Gráficas.</p>,
             <h2>Autor: Charles François;Ed. Sergio Moriello</h2>,
-            <h2>GESI, 2007 , Formato CD Rom</h2>,
+            <h2>GESI, 2007, Formato CD Rom</h2>,
             <h2>Indice Abreviado</h2>,
             <p>Ofrece la lista de los 32 temas abordados en el Curso, entre los cuales se distribuyen más de 280 transparencias comentadas.</p>,
             <p>El contenido de cada tema figura en el índice desarrollado y comentado.</p>,
@@ -343,7 +344,7 @@ export default function Archive(){
         [
             <h2>GESI, 2007</h2>,
             <p>Reciente edición en inglés del Curso de TGS y Cibernética con representaciones gráficas publicado en 2007 en formato CD ROM.</p>,
-            <p>Un tiempo después de su aparición y en vista de la recepción favorable , surgió la idea de traducirlo como material didáctico para difusión en el exterior de, al menos, de una ínfima parte de nuestras actividades didácticas como Grupo de Estudio; finalmente pudo realizarse hace unos días.</p>,
+            <p>Un tiempo después de su aparición y en vista de la recepción favorable, surgió la idea de traducirlo como material didáctico para difusión en el exterior de, al menos, de una ínfima parte de nuestras actividades didácticas como Grupo de Estudio; finalmente pudo realizarse hace unos días.</p>,
             <p>La noticia sobre este material didáctico editado oportunamente por el GESI en español, ha sido recibida con entusiasmo por parte del Prof. Gary Metcalf, presidente de la IFSR quien ya estaba al tanto de este proyecto, y le ha sido despachado via correo postal a Atlanta, USA. en consonancia con el comienzo de sus clases en la Universidad Saybrook.</p>,
             <p>Por nuestra parte hemos convenido que en el exterior sea difundido tanto como posible entre los docentes sistémicos quienes tendrán en este Course… una herramienta sistémica para ilustrar sus clases, conferencias, etc., al tiempo que GESI estará también presente en las actividades didácticas que lo implementen, como institución sistémica de respaldo.</p>,
             <a href={pdf}>Reverse Cover CD-ROM Course Francois 2007</a>
