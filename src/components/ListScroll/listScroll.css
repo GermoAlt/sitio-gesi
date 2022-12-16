@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: start;
-    align-items: start;
+    align-items: flex-start;
     font-size: 2rem;
     border-left: 1px solid grey;
 }
@@ -73,7 +73,7 @@
 }
 
 #listscroll section h3{
-    color: var(--secondary-highlight-color);
+    color: var(--tertiary-highlight-color);
     font-size: 1.1rem;
 }
 

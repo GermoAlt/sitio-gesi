@@ -1,3 +1,9 @@
 #about img{
     max-width: none;
 }
+
+#about iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 700px;
+}
