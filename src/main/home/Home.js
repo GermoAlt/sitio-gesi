@@ -4,6 +4,8 @@ import logo from "../../resources/images/logo.png";
 import a from "../../resources/images/gesi_magazine.png";
 import b from "../../resources/images/gesi_ediciones.png";
 import c from "../../resources/images/direccion-y-ejecucion.jpg";
+import d from "../../resources/images/Nuestras-Huellas.png";
+import e from "../../resources/images/Contacto.jpg";
 import React from "react";
 import {Link} from "react-router-dom";
 
@@ -22,17 +24,24 @@ export default function Home(){
                 <Carousel  centerMode centerSlidePercentage={100} showThumbs={false} showStatus={false}
                            interval={5000} autoPlay infiniteLoop transitionTime={1000}>
                     <div>
-                        <img src={a} alt={"a"} />
-                        <img src={a} alt={"a"} className={"bg"}/>
+                        <img src={a} alt={"El mensaje - Melina Litauer - www.melinalitauer.com.ar"} />
+                        <img src={a} alt={"El mensaje - Melina Litauer - www.melinalitauer.com.ar"} className={"bg"}/>
                     </div>
                     <div>
-                        <img src={b} alt={"a"} />
-                        <img src={b} alt={"a"} className={"bg"}/>
-
+                        <img src={b} alt={"Viaje al espacio - Melina Litauer - www.melinalitauer.com.ar"} />
+                        <img src={b} alt={"Viaje al espacio - Melina Litauer - www.melinalitauer.com.ar"} className={"bg"}/>
                     </div>
                     <div>
-                        <img src={c} alt={"a"} />
-                        <img src={c} alt={"a"} className={"bg"}/>
+                        <img src={c} alt={"Con luz propia - Melina Litauer - www.melinalitauer.com.ar"} />
+                        <img src={c} alt={"Con luz propia - Melina Litauer - www.melinalitauer.com.ar"} className={"bg"}/>
+                    </div>
+                    <div>
+                        <img src={d} alt={"Otro viaje, otra familia, otro nuevo mundo - Melina Litauer - www.melinalitauer.com.ar"} />
+                        <img src={d} alt={"Otro viaje, otra familia, otro nuevo mundo - Melina Litauer - www.melinalitauer.com.ar"} className={"bg"}/>
+                    </div>
+                    <div>
+                        <img src={e} alt={"Azul encantado - Melina Litauer - www.melinalitauer.com.ar"} />
+                        <img src={e} alt={"Azul encantado - Melina Litauer - www.melinalitauer.com.ar"} className={"bg"}/>
                     </div>
                 </Carousel>
             </div>
