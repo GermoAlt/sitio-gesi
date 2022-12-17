@@ -65,7 +65,7 @@ export default function About(){
             <p>La intensa actividad desarrollada por el GESI desde sus inicios encontró receptividad, especialmente en ámbitos universitarios. Universidades Nacionales: Buenos Aires (Facultades de Derecho, de Ciencias Económicas, Escuela de Asistentes Sociales de la Facultad de Medicina); de Rosario, de Tucumán, de Mendoza, de Santiago del Estero; de Luján; Tecnológica; de la Patagonia. Universidades Privadas: del Salvador; ITBA, Católica (en Santiago del Estero); Santo Tomás de Aquino; UADE; de Belgrano. También encontró receptividad en grupos de trabajo: equipos de Terapia Sistémica en la provincia de Buenos Aires y otras activas en la misma temática, del ámbito de la Capital Federal.</p>,
             <h3>RED DE PERTENENCIA</h3>,
             <p>Desde sus inicios el GESI cuenta con una pertenencia en el contexto de las instituciones que en el mundo se dedican a la Sistémica y la Cibernética con intercambios y contribuciones en el ámbito local-internacional.</p>,
-            <p><b>Importantes sistemistas extranjeros llegan al país por gestión del GESI</b> y sus asociados. Entre ellos se pueden mencionar:</p>,
+            <p><b>Importantes sistemistas extranjeros llegan al país por gestión del GESI</b> y sus integrantes. Entre ellos se pueden mencionar:</p>,
             <p>James Miller, John Warfield (norteamericanos), Pierre Vendryes, Henri Atlan y Robert Vallée (franceses), Guy Jumarie (franco-canadiense) Helmar Frank (alemán, autoridad mundial en pedagogía cibernética), John van Gigch (argentino establecido en California), Marcelino Cereijido (argentino docente e investigador en la UNAM), Cintra Martins (Río de Janeiro) Magoroh Maruyama, Stuart Umpleby, Mike Jackson, Gary Metcalf, Stephen Ruth y Ranulph Glanville, entre los más renombrados. Un caso de particular interés fue compartir con la Asociación de Terapia Familiar (Argentina) las presentaciones e intercambios con sistemistas de gran prestigio como Heinz von Foerster, Humberto Maturana y Francisco Varela.</p>,
             <p>Los profesores Magoroh Maruyama, Jamshid Gharajedaghi, John Morecroft y Michael Jackson han ofrecido cursos en la Escuela Superior de Administración del Instituto para el Desarrollo Empresarial de la Argentina (IDEA) en los años en los que Enrique Herrscher fue decano de esa institución.</p>,
             <p>Los Congresos Latinoamericanos de ALAS, a partir del 2005, constituyen oportunidades de visitas de profesores extranjeros. Por ejemplo el Prof. Matjaz Mulej (Universidad de Maribor, Slovenia) Markus Schwaninger (Universidad de Saint Gallen, Suiza) y el Prof. F. Wallner (Universidad de Viena) y otras personalidades del quehacer sistémico-cibernético en el ámbito latinoamericano: los profesores Ernesto Lleras (Colombia), Ignacio Peón Escalante y Francisco Aceves (Méjico), y Hernán López Garay (Venezuela) entre otros.</p>,
@@ -192,6 +192,14 @@ export default function About(){
                     <p>Economista con trayectoria en cuestiones socioambientales en Europa, China y Uruguay: Organiza y coordina talleres de diseño de futuros. Apoya la construcción y gestión de redes de organizaciones y/o individuos. Facilita la integración de intereses diversos en proyectos compartidos. Mentoring para cuestiones laborales y nuevos entornos culturales y apoyo al aprendizaje. Con la Economista Silvia Zweifel es Co-fundadora del Grupo ECONOMÍA AMABLE: especialistas en innovación & bienvivir para propiciar una Economía Amable con las personas y el medio ambiente.</p>
                     <p>Contacto: mechthild.adameit@gmx.de</p>
                 </AccordionTab>
+                <AccordionTab header={"Walter Amado"}>
+                    <p>Licenciado en Seguridad y Salud Ocupacional, Diplomado en Ergonomía Universidad de Concepción de Chile. Director de consultora Holos Ergonomía Ocupacional. Lidera equipos interdisciplinares. Profesor de grado y posgrado en Ergonomía en distintas universidades, Favaloro, UCALP, UNTREF y UNICEN. Expresidente de la Asociación de Ergonomía Argentina ADEA. Publicación de Macroergonomía con enfoque Sistémico en Libro: Ergonomía: Historia, miradas y aplicaciones de la ADEA (2019), y publicación en la revista científica INNOVA UNTREF (2020).</p>
+                    <p>wamado@me.com</p>
+                    <p>wamado@netwerk.com.ar</p>
+                </AccordionTab>
+                <AccordionTab header={"Ricardo Barrera"}>
+                    <p>ryba.rb@ryba.com.ar</p>
+                </AccordionTab>
                 <AccordionTab header={"Augusto Barcaglioni"}>
                     <p>Docente universitario. Investigador en filosofía cognitiva y pedagogía constructivista. Doctor en Ciencias de la Educación (UCA). Consultor organizacional para el entrenamiento de personas y equipos de alta performance. Desarrollo de habilidades cognitivo-emocionales para el desarrollo del liderazgo. Creatividad para la resolución de problemas, el abordaje de la complejidad y la mejora del clima laboral y de los procesos de toma de decisión estratégica. Creador del Método “Cognitio” de Aprendizaje Acelerativo (MCA) para niveles gerenciales y de alta dirección. Premio de la Academia Nacional de Educación (1998).</p>
                     <p>Contacto: barcaglioni@fibertel.com.ar;</p>
@@ -208,20 +216,27 @@ export default function About(){
                 <AccordionTab header={"Eduardo del Caño"}>
                     <p>Médico sanitarista de vasta trayectoria, colaborador fundacional y permanente de nuestro Grupo de Estudio, desde sus inicios a medidados de los año 70´s en la Sociedad Científica Argentina; miembro de la Asociación de Médicos Municipales de la ciudad de Buenos Aires y destacado estudioso y docente en diversos ámbitos. También se distinguió como bibliotecario profesional, y músico organista. Fallecido el 17 de Agosto de 2015.</p>
                 </AccordionTab>
+                <AccordionTab header={"Valeria Delgado"}>
+                    <p>valeriaveronica@hotmail.com</p>
+                </AccordionTab>
                 <AccordionTab header={"Néstor Domínguez"}>
-                    <p>Marino e ingeniero electrónico. Profesor universitario e investigador de posgrado jubilado. Con experiencia de 15 años en estudios estratégicos. Especialista en sistemas navales y asesor en temas espaciales de la Armada y de la Casa de Cultura de Córdoba. Estudioso de la licenciatura filosofía hasta el ciclo final de la carrera. Todo ello, y las actividades correspondientes, le han despertado un</p>
-                    <p>interés por la sistémica, la cibernética y la prospectiva, que aplica y alterna con investigaciones sobre temas del mar, históricos, filosóficos y de defensa nacional. Al respecto escribe libros y artículos que se difunden en el país y el extranjero.</p>
+                    <p>Marino e ingeniero electrónico. Profesor universitario e investigador de posgrado jubilado. Con experiencia de 15 años en estudios estratégicos. Especialista en sistemas navales y asesor en temas espaciales de la Armada y de la Casa de Cultura de Córdoba. Estudioso de la licenciatura filosofía hasta el ciclo final de la carrera. Todo ello, y las actividades correspondientes, le han despertado un interés por la sistémica, la cibernética y la prospectiva, que aplica y alterna con investigaciones sobre temas del mar, históricos, filosóficos y de defensa nacional. Al respecto escribe libros y artículos que se difunden en el país y el extranjero.</p>
+                    <p>nestorides133@gmail.com</p>
+                    <p>nadominguez80@yahoo.com.ar</p>
                 </AccordionTab>
                 <AccordionTab header={"Valeria Marina Elizalde"}>
                     <p>Licenciada en Historia (UNLPam) y Doctora en Historia (UNLP), con postgrado en Metodología en Investigación Científica (UNla). Posee certificado de Estudios Superiores de Francés (Alianza Francesa). Se dedica a Consultorías en Metodología Científica a demanda participa en proyectos científico-académicos de Nivel de Postgrado. Se desempeña como docente titular de la Maestría en Gestión Empresaria; integra entidades científicas nacionales e internacionales. </p>
                 </AccordionTab>
                 <AccordionTab header={"Gladys Noemí Figueredo de Bassa"}>
                     <p>Educadora. Especialista en integración curricular bilingüe. Asesora pedagógica para la creación de escuelas bilingües en distintos lugares del país. Su dedicación al estudio e investigación en el área de la educación surge de la experiencia con niños de espectros socio-económicamente opuestos de la sociedad. Esto la lleva a abocarse a la formación docente de quienes se interrogan ante las necesidades y capacidades de sus educandos, se sienten cómodos ante la incomodidad, y asumen el desafío de buscar soluciones creativas y operativas. Es por ello que ha encontrado en el pensamiento sistémico y la complejidad nutrientes potentes para su reflexión y práctica.</p>
-                    <p>Contacto:bassagladys@hotmail.com</p>
+                    <p>Contacto: gnfbassa@gmail.com</p>
                 </AccordionTab>
                 <AccordionTab header={"Charles François"}>
                     <p>Investigador y docente de Sistémica y Cibernética. Es mentor y fundador del GESI; Propició la enseñanza y difusión de los conceptos, y la creación de grupos de interés sistémico y cibernético en la región Latinoamericana estableciendo valiosas vinculaciones entre éstos y varias instituciones sistémicas del exterior. Es autor de obras de referencia y de publicaciones en ediciones locales y extranjeras. Es Presidente Honorario del GESI y de la Asociación Latinoamericana de Sistémica(ALAS); profesor honorario del ITBA, miembro de honor del Business Science Laboratory de Italia y de Systèmes et Organisations de Bélgica, miembro luminaria de la International Society for the Systems Sciences (ISSS) y miembro fellow de la International Federation for Systems Research (IFSR) y académico de la International Academy of Systems Science and Cybernetics. Nuestro mentor falleció el 31 de julio de 2019</p>
                     <p>Contacto vigente, Gloria de François: françoischg@fibertel.com.ar</p>
+                </AccordionTab>
+                <AccordionTab header={"Ricardo Frías"}>
+                    <p>rfrias@entdf.edu.ar</p>
                 </AccordionTab>
                 <AccordionTab header={"Walter Fritz"}>
                     <p>Ingeniero y estudioso de robótica, docente en diversos ámbitos de la Informática, brindó entre otras instituciones de enseñanza, valiosos aportes al GESI en sus actividades, así como genero apoyo a su difusión durante muchos años. Walter falleció el 12 de Abril de 2021</p>
@@ -239,11 +254,15 @@ export default function About(){
                 </AccordionTab>
                 <AccordionTab header={"Alexander Laszlo"}>
                     <p>57º. Presidente y Chair del Consejo de Presidentes de la Sociedad Internacional de las Ciencias de Sistemas (ISSS). Dirección de la Innovación Sistemica de la Escuela de Postgrado del ITBA, Argentina. Presidencia de Syntony Leadership y ex Director del Programa de Doctorado en Administración de la Escuela de Graduados en Administración y Dirección de Empresas (EGADE-ITESM), México. Enseña liderazgo evolutivo, colaboración y pensamiento sistémico en una variedad de MBAs y programas de Doctorado a nivel internacional.</p>
-                    <p>thelasz@me.com</p>
+                    <p>alexander@sytonyquest.org</p>
+                    <p>alexander.laszlo@bcsss.org</p>
                 </AccordionTab>
                 <AccordionTab header={"Antonio Anselmo Martino"}>
                     <p>Docente. Profesor emérito de la Universidad del Salvador. Profesor Emérito de la Universidad de Pisa. Miembro de la Academia Nacional de Derecho y Ciencias Sociales de Córdoba. Miembro asociado del Center for Artificial Intelligence and Cognate learning of the University of Greenwich, Miembro de la “European Association of Legislation”, Miembro del Instituto de Derecho Constitucional de la Academia de Derecho y Ciencias Sociales de Buenos Aires. Director del Manual del Digesto Argentino.</p>
                     <p>Contacto: aamartino@gmail.com</p>
+                </AccordionTab>
+                <AccordionTab header={"Sergio Moriello"}>
+                    <p>sergiomoriello@hotmail.com</p>
                 </AccordionTab>
                 <AccordionTab header={"Gloria Nazer"}>
                     <p>Docente, bibliotecaria nacional y documentalista. Desde sus aprendizajes y actividades laborales en instituciones de investigación, crecieron su interés y sus posibilidades para brindar variados aportes personales también a espacios especialmente valorados y más cercanos dedicados al estudio y la difusión de conceptos y prácticas que apuntan, entre otras premisas y con visión amplia, a la comprensión de los valores culturales, la convivencia y el respeto para el fortalecimiento del tejido social y las relaciones más armoniosas entre el humano, su hábitat y la naturaleza. En tal sentido, su colaboración para con el GESI en las actividades docentes, editoriales y de comunicación se remontan a finales de los años 70´s; y su participación como apoyo a la realización de trabajos y ediciones de Charles François, así como la difusión de las mismas, ha sido y sigue activa y muy reconocida, en lo personal e institucional.</p>
@@ -259,13 +278,24 @@ export default function About(){
                 </AccordionTab>
                 <AccordionTab header={"José Luis Roces"}>
                     <p>Docente y gestor de cambios institucionales.Ingeniero Industrial (UBA) y Posgrado en Management Science (Templeton College,Oxford). Profesor en Dirección,Organización y Liderazgo (UBA,UADE,UDESA,ITBA) desde hace 40 años. Ocupó cargos directivos, como Rector (ITBA) Director (Organización Techint, Banco Santander Rio y otros) Autor de libros, artículos, conferencista y jurado internacional en temas de Educación, Pensamiento sistémico y responsabilidad social empresaria. Apasionado de la educación como proceso de transformación de la conciencia, para lograr una sociedad perdurable.</p>
+                    <p>jorces@itba.edu.ar</p>
                 </AccordionTab>
                 <AccordionTab header={"Eva María Sarka"}>
                     <p>Docente e investigadora, extensionista. Dedicada a la formación de formadores en universidades y diversas organizaciones. Promueve programas y proyectos interdisciplinarios e interinstitucionales a nivel nacional y L.A. en las que la RED actúa como metáfora. Diseña espacios de aprendizaje vivenciales (comunidades de aprendizaje), orientados al desarrollo del potencial integral y creativo del ser humano en interrelación responsable con sus contextos. Promueve la emergencia del observador-participante-protagonista para que la plenitud subjetiva entrame con la del sujeto colectivo local, regional y planetario, con mirada anticipatoria. Su sustento ético es el respeto hacia la diversidad y la congruencia en el propio sentipensar-hacer. Su visión es re-unir el camino del conocimiento con el de la vida.</p>
-                    <p>Contacto: evasarka@gmail.com</p>
+                    <p>Contacto: eva.sarka@gmail.com</p>
                 </AccordionTab>
                 <AccordionTab header={"Fabián Szulanski"}>
                     <p>Ingeniero Civil (UBA) y MPhil -c- de Dinamica de Sistemas (Bergen, Noruega). Facilitador de creación de valor. Coach de aprendizaje y de toma de decisiones. Mentor de expertos. En el ITBA, fue director del Centro de Dinámica de Sistemas; y creador y director del Learning Lab. Actualmente en la red de desarrollo del Departamento de Innovación Educativa. Creador de metodologías de agregado de valor, siempre de manera integrativa. Ha participado en encuentros regionales e internacionales de Dinámica de Sistemas, también como evaluador.</p>
+                    <p>fabian.szulanski@gmail.com</p>
+                </AccordionTab>
+                <AccordionTab header={"Fernando Zabala"}>
+                    <p>Ingeniero Químico (U.T.N. Fac. Reg. La Plata -1987-), y especialización de posgrado en Ingeniería Gerencial en la misma Casa (2013).</p>
+                    <p>Profesor Titular de las Cátedras “Pensamiento Sistémico”, “Administración General” y “Conducción del Personal” en la misma institución universitaria. En la Maestría en Ingeniería Ambiental de dicha casa, docente del módulo en “Gestión Integral de los Residuos Sólidos Urbanos”. Director o codirector de tesistas de maestrando en ésta y otras universidades argentinas y extranjeras.</p>
+                    <p>Docente del Centro de Desarrollo de Competencias (para funcionarios y mandos medios) del Instituto Provincial de Administración Pública Prov. de Buenos Aires (I.P.A.P.), en los módulos “Visión Estratégica”, “Liderazgo” y “Toma de Decisiones”.</p>
+                    <p>Acreditado como Profesional Senior Experto en “Producción Limpia” y “Control de la Contaminación Industrial” por ante el B.I.D.</p>
+                    <p>Consultor independiente en: Liderazgo; Estrategia/Prospectiva; Producción Limpia y Gestión Integral de los R.S.U.</p>
+                    <p>En el Sector Público he sido Jefe de Personal, y Jefe de Recursos Naturales y Medio Ambiente</p>
+                    <p>fcristianzabala@gmail.com</p>
                 </AccordionTab>
                 <AccordionTab header={"Silvia Zweifel"}>
                     <p>Economista con larga experiencia en el sector financiero, en equipos de alta performance en negocios y riesgos. Articula arte y ciencia para propiciar innovaciones sociales significativas: Coordina grupos de cocreación de futuros deseables. Desarrollo de equipos de pensamiento innovativo y resolución de problemas por abordajes no habituales. Mentoring de conversaciones significativas en contextos de reflexión para la construcción de preguntas-respuestas y la toma de decisiones para individuos y organizaciones. Propicia una Economía Amable con las personas y el medio ambiente: es coordinadora del Grupo ECONOMÍA AMABLE integrado por especialistas en innovación & bienvivir.</p>
