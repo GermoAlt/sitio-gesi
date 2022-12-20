@@ -18,6 +18,7 @@ export default function About(){
     const titles = [
         ["Misión e Identidad"],
         ["Origen y Trayectoria"],
+        ["Grupos"],
         ["Mentor"],
         ["Contexto Generativo Transformador"],
         ["Nuestra Red"],
@@ -131,6 +132,14 @@ export default function About(){
             <p>En sus inicios, la búsqueda editorial fundamental fue la de crear un acervo bibliográfico básico en idioma español que diera cuenta de los abordajes de los sistemas complejos y sus problemáticas, las teorías disponibles, los avances en la investigación y aplicaciones. Es así que se realizaron traducciones de trabajos y artículos. Por otra parte, la actividad del GESI ha sido un factor estimulante para que sus integrantes y allegados emprendieran, a título propio, la realización de libros en el marco de la perspectiva sistémica.</p>,
             <p>La labor en el ámbito del GESI ha quedado reflejada en ediciones impresas y boletines electrónicos, y actualmente mediante artículos pedagógicos y temáticos en el Magazine digital. Es de destacar el Diccionario de Teoría General de Sistemas y Cibernética elaborado por Charles François y editado por GESI en colaboración con el Instituto Andino de Sistemas (IAS) de Perú. Es una obra de referencia que inspira el proyecto de una “Enciclopedia WIKI de sistémica, cibernética y complejidad”</p>,
             <p>El ambiente del GESI es propicio para que surjan grupos de estudio, de investigación y de trabajo en colaboración. Por eso su red es fuerte y la actividad de quienes han participado, la de quienes hoy participan dejan nuestra traza de muchas maneras en los más diversos ámbitos: en el país, la región y el mundo.</p>
+        ],
+        [
+            <p>En la historia de GESI, se conformaron los siguientes equipos multidisciplinarios de trabajo:</p>,
+            <ul>
+                <li>Grupo Mar</li>
+                <li>Grupo Economía Amable</li>
+                <li>Grupo Educación</li>
+            </ul>
         ],
         [
             <img src={charles_banner} alt={"Charles François"}></img>,

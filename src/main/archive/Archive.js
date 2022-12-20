@@ -45,7 +45,8 @@ export default function Archive(){
         "Curso de Teoria General de Sistemas y Cibernetica",
         "Tutorial of General Systems Theory and Cybernetics with Graphic Representations",
         "Pensamiento Sistémico; textos breves transdisplinarios.",
-        "Artículos de colaboradores y allegados"
+        "Ediciones de Colaboradores y Allegados",
+        "Artículos de Colaboradores y Allegados"
     ]
     const contents = [
         [
@@ -354,6 +355,53 @@ export default function Archive(){
             <h2>Buenos Aires, GESI, 2014</h2>,
             <p>La presente edición del GESI ofrece textos breves sobre diversas temáticas de interés sistémico, varias de las cuales, fundamentalmente la educativa, tuvieron un espacio destacado en la labor del autor, Prof. Charles François, correspondiéndose con los constantes desarrollos en su labor de investigador, docente, y profesor visitante y honorario, en numerosos ámbitos empresariales y educativos, nacionales y del exterior. Con dos principales propósitos: la difusión y práctica de las metodologías sistémicas y cibernéticas, y la conformación de agrupaciones de sistémicos, para conformar una red latinoamericana y dar a conocer sus investigaciones y resultados a favor de la innovación y mayor eficacia en el desenvolvimiento de los miembros y las instituciones involucradas.</p>,
             <p>Contenido: Educación no es solamente instrucción; Proyectar con visión sistémica; Concepto y el Modelo de Red Neuronal;El concepto de Estructura, y sus fundamentos matemáticos; La Metodología Sistémica en los modelos globales ecológicos y ambientales</p>
+        ],
+        [
+            <h2>Ediciones de Charles François</h2>,
+            <ul>
+                <li>Cybernétique et Prospective, Namur: International Association of Cybernetics, 1976</li>
+                <li>Introducción a la Prospectiva Buenos Aires: Pleamar, 1978</li>
+                <li>El uso de Modelos Sistémicos-Cibernéticos como metodología científica, (Systemic-Cybernetic Models used as scientific methodology), 1985</li>
+                <li>Enfoques Sistémicos en el Estudio de las Sociedades (Systemic Approaches to the Study of Societies), 1986</li>
+                <li>Diccionario de Teoría General de Sistemas y Cibernética, Buenos Aires: GESI. La primer obra de su tipo en español (475 términos), 1992</li>
+                <li>International Encyclopedia of Systems and Cybernetics, München: K. G. Saur, 1997</li>
+                <li>2004 2da. Edición de la International Encyclopedia of Systems and Cybernetics en dos volúmenes (casi 4.000 entradas)</li>
+                <li>Problemología, una metodología de indagación de los problemas complejos. GESI, 2014.</li>
+            </ul>,
+            <h2>Ediciones de Enrique Herrscher</h2>,
+            <ul>
+                <li>Introducción a la Administración de Empresas - guía para exploradores de la complejidad organizacional. Ediciones Macchi, 2000</li>
+                <li>Contabilidad y Gestión – un enfoque sistémico de la información para la acción. Ediciones Macchi, 2002</li>
+                <li>Pensamiento Sistémico - caminar el cambio o cambiar el camino. Ediciones Macchi, 2003</li>
+                <li>El Círculo Virtuoso: cambiar – planificar – aprender – cambiar.  Ediciones Macchi, 2007</li>
+                <li>Planeamiento Sistémico – un enfoque estratégico en la turbulencia.  Ediciones Macchi, 2008</li>
+                <li>Administración: aprender y actuar - Management sistémico para PyMEs.  Ediciones Macchi, 2009</li>
+                <li>El valor sistémico de las organizaciones - Variables, procesos y estructuras. Ediciones Macchi, 2010</li>
+                <li>Presupuesto Sistémico - clave para la supervivencia de emprendimientos y PyMEs. Ediciones Macchi, 2013</li>
+            </ul>,
+            <h2>Libros editados en papel por Néstor Domínguez</h2>,
+            <ul>
+                <li>(1990), Satélites, Tomo I, Vta. etapa tecnológica naval y su incidencia en la Guerra de Malvinas, Buenos Aires, Argentina, Instituto de Publicaciones Navales;</li>
+                <li>(1991), Satélites,Tomo II, Más allá de la tecnología y de la guerra, Buenos Aires, Argentina, Instituto de Publicaciones Navales;</li>
+                <li>(1995), La universalización de la solidaridad. El sistema COSPAS-SARSAT en la República Argentina, Buenos Aires, Argentina, Edición de la Fundación Integración;</li>
+                <li>(1996), Hacia un pensamiento ecológicamente sustentable, Buenos Aires Argentina, Instituto de Publicaciones Navales, Buenos Aires;</li>
+                <li>(2007) Estelas Doradas (como autor de la  idea, la compilación y edición), Buenos Aires, Argentina, Servicios Editoriales “Digital & Paper”;</li>
+                <li>(2011) Juguetes propios y guerras ajenas. 1ra. Edición Historia novelada, Buenos Aires, Argentina, Edición del autor;</li>
+                <li>(2012) SARMIENTO, los ríos y el mar argentinos, Prólogo de Horacio C. Reggini, Buenos Aires Argentina, Instituto de Publicaciones Navales;</li>
+                <li>(2018), El arte de comprender la naturaleza, Buenos Aires, Argentina, Edición del Instituto de Publicaciones Navales;</li>
+                <li>(2021). Comprender lo natural (en edición demorada);</li>
+                <li>(2021) Understanding nature (en edición demorada).</li>
+                <h3>En coautoría con:</h3>
+                <li>(1993)  Azcarraga,A., Ciancaglini, H., Cocca, A. A., Fernández Shaw F. y Obligado A.,  Educación por satélite, Buenos Aires, Argentina, Fundación Casa de Cultura de Córdoba;</li>
+                <li>(1999), Diversos otros autores, Segunda Antología de Poetas, Escritores y Ensayistas del Tercer Milenio, Pensamiento natural y artificial, digital y analógico, antigüo y contemporáneo", Buenos Aires, Argentina, Editorial Trama;</li>
+                <li>(2004), Bloch, R. Un enfoque sistémico de la defensa, Tomo I: Aspectos Culturales, Buenos Aires, Argentina, Editorial DUPLICAR;</li>
+                <li>(2004), Bloch, R., Un enfoque sistémico de la defensa, Tomo II: Aspectos Militares y Tecnocientíficos, Buenos Aires, Argentina, Editorial DUPLICAR;</li>
+                <li>(2004), Bloch, R., Un enfoque sistémico de la defensa, Tomo III: Aspectos Cívico-Militares, Buenos Aires, Argentina, Editorial DUPLICAR;</li>
+                <li>(2006), PEDRAZZINI, L. A., WISZNIAKI, B. y TOYOS, S., Cara y Cruz de América del Sur. Desafío ineludible de supervivencia: La integración Iberoamericana. Buenos Aires, Argentina, Editorial Dunken;</li>
+                <li>(2010) BLOCH, R., Una imagen espacio-política del mundo, Ensayo político-estratégico que contó con la colaboración de los licenciados  Espona, M. J. y  Ohanessian, F. J. (todos profesores de la Escuela de Defensa Nacional) 1ª Edición, Buenos Aires, Argentina, Editorial Dunken;</li>
+                <li>(2011), Balbi, E. R., Cachaza, H. F., Araujo R. C., Llorens, E. C. y Vivequin, S. M., PROSPECTIVA – Cuenca del Plata, Cauce para el futuro,  Buenos Aires, Argentina, Editado por la Fundación Fundar en Internet: Recuperado de: http://www.fundar.org.ar,</li>
+
+            </ul>
         ],
         generateArticleCards()
     ]
