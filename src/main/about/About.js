@@ -6,7 +6,7 @@ import doraGregorio from "../../resources/images/dora_l_gregorio.jpg"
 import charles_banner from "../../resources/images/charles_banner.jpg"
 import charles_1 from "../../resources/images/charles_1.jpg"
 import charles_3 from "../../resources/images/charles_3.jpg"
-import homenajeCharles from "../../resources/pdf/Homenaje_Francois.pdf"
+import homenajeCharles from "../../resources/documents/Homenaje_Francois.pdf"
 
 export default function About(){
 
@@ -231,7 +231,6 @@ export default function About(){
                 <AccordionTab header={"Néstor Domínguez"}>
                     <p>Marino e ingeniero electrónico. Profesor universitario e investigador de posgrado jubilado. Con experiencia de 15 años en estudios estratégicos. Especialista en sistemas navales y asesor en temas espaciales de la Armada y de la Casa de Cultura de Córdoba. Estudioso de la licenciatura filosofía hasta el ciclo final de la carrera. Todo ello, y las actividades correspondientes, le han despertado un interés por la sistémica, la cibernética y la prospectiva, que aplica y alterna con investigaciones sobre temas del mar, históricos, filosóficos y de defensa nacional. Al respecto escribe libros y artículos que se difunden en el país y el extranjero.</p>
                     <p>nestorides133@gmail.com</p>
-                    <p>nadominguez80@yahoo.com.ar</p>
                 </AccordionTab>
                 <AccordionTab header={"Valeria Marina Elizalde"}>
                     <p>Licenciada en Historia (UNLPam) y Doctora en Historia (UNLP), con postgrado en Metodología en Investigación Científica (UNla). Posee certificado de Estudios Superiores de Francés (Alianza Francesa). Se dedica a Consultorías en Metodología Científica a demanda participa en proyectos científico-académicos de Nivel de Postgrado. Se desempeña como docente titular de la Maestría en Gestión Empresaria; integra entidades científicas nacionales e internacionales. </p>

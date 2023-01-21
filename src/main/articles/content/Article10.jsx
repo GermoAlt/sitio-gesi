@@ -1,4 +1,4 @@
-import pdf from "../../../resources/pdf/Los-Complejos-Mundos-de-la-Vida.-Nestor-Dominguez.pdf"
+import pdf from "../../../resources/documents/Los-Complejos-Mundos-de-la-Vida.-Nestor-Dominguez.pdf"
 export const Article10 = () => {
     return (
         <div>
