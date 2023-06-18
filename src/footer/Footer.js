@@ -10,7 +10,7 @@ export default function Footer () {
             <div className={"redes"}>
                 <p>ENCONTRÁ NUESTRAS NOVEDADES</p>
                 <div className={"image-container"}>
-                    <a href={"https://www.facebook.com/profile.php?id=100088159221808"} target={"_blank"} rel={"noreferrer noopener nofollow"}>
+                    <a href={"https://www.facebook.com/gesi2000"} target={"_blank"} rel={"noreferrer noopener nofollow"}>
                         <img src={facebook} alt={"Facebook logo"}/>
                     </a>
                 </div>
