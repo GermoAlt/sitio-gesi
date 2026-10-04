@@ -11,6 +11,7 @@ export const PaletteTree = () => (
         <Category name="HTML">
             <Component name="a">
                 <Variant requiredParams={['href']}>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a>Link</a>
                 </Variant>
             </Component>

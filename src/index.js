@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
 import {DevSupport} from "@react-buddy/ide-toolbox";
 import {ComponentPreviews, useInitial} from "./dev";
-import {FacebookContext, FacebookProvider} from "react-facebook";
+import {FacebookProvider} from "react-facebook";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
