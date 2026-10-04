@@ -275,7 +275,7 @@ export default function About(){
                 </AccordionTab>
                 <AccordionTab header={"Gloria Nazer"}>
                     <p>Docente, bibliotecaria nacional y documentalista. Desde sus aprendizajes y actividades laborales en instituciones de investigación, crecieron su interés y sus posibilidades para brindar variados aportes personales también a espacios especialmente valorados y más cercanos dedicados al estudio y la difusión de conceptos y prácticas que apuntan, entre otras premisas y con visión amplia, a la comprensión de los valores culturales, la convivencia y el respeto para el fortalecimiento del tejido social y las relaciones más armoniosas entre el humano, su hábitat y la naturaleza. En tal sentido, su colaboración para con el GESI en las actividades docentes, editoriales y de comunicación se remontan a finales de los años 70´s; y su participación como apoyo a la realización de trabajos y ediciones de Charles François, así como la difusión de las mismas, ha sido y sigue activa y muy reconocida, en lo personal e institucional.</p>
-                    <p>françoischg@fibertel.com.ar</p>
+                    <p>francoischglo@gmail.com</p>
                     <p>gesicontacto6@gmail.com</p>
                 </AccordionTab>
                 <AccordionTab header={"Rodolfo Reginaldo Porley Corbo"}>
